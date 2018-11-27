@@ -1,0 +1,55 @@
+/* ==========================================================================
+	 main styes
+	 ========================================================================== */
+
+/*! Created: #{timestamp} */
+
+@charset 'utf-8';
+
+@import
+	'_functions.scss',
+	'_mixins.scss';
+
+.zoomIn {
+	display: inline-block;
+	position: relative;
+	border: 1px solid gray;
+	overflow: hidden;
+	cursor: pointer;
+
+	> img {
+		max-height: 600px;
+		width: auto;
+	}
+
+	> .description {
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		margin: 0;
+		color: #ddd;
+		background: rgba(0, 0, 0, .7);
+		height: 30px;
+		color: #fff;
+		padding: 0 10px;
+		box-sizing: border-box;
+
+		> h2 {
+			font: {
+				size: 1.3em;
+				family: 'Calibri';
+				weight: 'normal';
+			}
+			margin: 0;
+			display: inline;
+		}
+
+		> .zoom {
+			float: right;
+
+			&::before {
+				content: 'x';
+			}
+		}
+	}
+}

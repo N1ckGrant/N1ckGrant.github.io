@@ -1,0 +1,96 @@
+/* ==========================================================================
+   Mixins
+   ========================================================================== */
+
+
+// Gradient
+// ==========================================================================
+
+@mixin linear-gradient($colors...) {
+	background: -webkit-linear-gradient($colors);
+	background: -moz-linear-gradient($colors);
+	background: -o-linear-gradient($colors);
+	background: linear-gradient($colors);
+}
+
+
+// Box shadow
+// ==========================================================================
+
+@mixin box-shadow($shadows...) {
+	-webkit-box-shadow: $shadows;
+	-moz-box-shadow: $shadows;
+	box-shadow: $shadows;
+}
+
+
+// Animation
+// note: Advenced animation with keyframes, if you need basic transition
+// between 2 values, use transition mixin instead.
+// ==========================================================================
+
+@mixin animation($str) {
+	-webkit-animation: #{$str};
+	-moz-animation: #{$str};
+	-ms-animation: #{$str};
+	-o-animation: #{$str};
+	animation: #{$str};
+}
+
+
+// Transition
+// note: this is basic transition between 2 values.
+// ==========================================================================
+
+
+@mixin transition($args...) {
+	-webkit-transition: $args;
+	-moz-transition: $args;
+	-ms-transition: $args;
+	-o-transition: $args;
+	transition: $args;
+}
+
+// Keyframes
+// ==========================================================================
+
+@mixin keyframes($animation-name) {
+	@-webkit-keyframes #{$animation-name} {
+		@content;
+	}
+	@-moz-keyframes #{$animation-name} {
+		@content;
+	}
+	@-ms-keyframes #{$animation-name} {
+		@content;
+	}
+	@-o-keyframes #{$animation-name} {
+		@content;
+	}
+	@keyframes #{$animation-name} {
+		@content;
+	}
+}
+
+
+// Transform mixins.
+// ==========================================================================
+
+@mixin transform($transforms) {
+	-webkit-transform: #{$transforms};
+	-moz-transform: #{$transforms};
+	-ms-transform: #{$transforms};
+	transform: #{$transforms};
+}
+
+@mixin translate($x, $y) {
+	@include transform(translate(#{$x}, #{$y}));
+}
+
+@mixin rotate ($deg) {
+	@include transform(rotate(#{$deg}deg));
+}
+
+@mixin scale ($scale) {
+	@include transform(scale(#{$scale}));
+}
