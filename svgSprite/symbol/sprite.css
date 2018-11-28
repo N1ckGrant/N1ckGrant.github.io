@@ -8,6 +8,11 @@
 	height: 24px;
 }
 
+.svg-analitic-dims {
+	width: 50px;
+	height: 50px;
+}
+
 .svg-analiticPprocess-dims {
 	width: 24px;
 	height: 24px;
@@ -33,9 +38,19 @@
 	height: 16px;
 }
 
+.svg-desing-dims {
+	width: 50px;
+	height: 50px;
+}
+
 .svg-desingProcess-dims {
 	width: 24px;
 	height: 24px;
+}
+
+.svg-develp_process-dims {
+	width: 50px;
+	height: 50px;
 }
 
 .svg-drop_arrow-dims {
@@ -78,6 +93,11 @@
 	height: 24px;
 }
 
+.svg-qa_process-dims {
+	width: 50px;
+	height: 50px;
+}
+
 .svg-rea-dims {
 	width: 23px;
 	height: 23px;
@@ -86,6 +106,11 @@
 .svg-right_arrow-dims {
 	width: 16px;
 	height: 16px;
+}
+
+.svg-start-Project-dims {
+	width: 50px;
+	height: 50px;
 }
 
 .svg-startProject-dims {
