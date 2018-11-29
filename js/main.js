@@ -111,32 +111,9 @@ function table_vacancy() {
     var tabs = $('.table__tab');
     console.log($('[data-vacancy]'));
     $(tabs).on('click', function () {
-        var dataAtr = $(this).attr('data-vacancy');
-        console.log(dataAtr);
-        if (dataAtr === "php") {
-            $('.table__body').removeClass('active');
-            $('#php').addClass('active');
-        }
-        if (dataAtr === "Project-manager") {
-            console.log('byyyy');
-            $('.table__body').removeClass('active');
-            $('#project-manager').addClass('active');
-        }
-        if (dataAtr === "Javascript") {
-            console.log('byyyy');
-            $('.table__body').removeClass('active');
-            $('#JS').addClass('active');
-        }
-        if (dataAtr === "sales") {
-            console.log('byyyy');
-            $('.table__body').removeClass('active');
-            $('#sales').addClass('active');
-        }
-        if (dataAtr === "design") {
-            console.log('byyyy');
-            $('.table__body').removeClass('active');
-            $('#design').addClass('active');
-        }
+
+        $('.table__body').removeClass('active');
+        $('#' + $(this).attr('data-vacancy')).addClass('active');
     });
 }
 
