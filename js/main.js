@@ -192,14 +192,8 @@ $(window).scroll(function () {
         $('html, body').animate({ scrollTop: target_top }, { done: function done() {
                 console.log('done');
                 $(this).animate().stop();
-                $("body").bind('mousewheel DOMMouseScroll', function () {
-                    stopWheel();
-                });
             }, duration: 1500 });
-        $("body").bind('mousewheel DOMMouseScroll', function () {
-            console.log('helloooooo');
-            e.returnValue = true;
-        });
+
         console.log('первый скролл прошел');
         console.log('scroll down');
         notScroll = true;
@@ -209,16 +203,10 @@ $(window).scroll(function () {
         //scrolling up
         //          $("body").css("overflow","hidden");
         $('html, body').animate({ scrollTop: 0 }, { done: function done() {
-                $("body").bind('mousewheel DOMMouseScroll', function () {
-                    stopWheel();
-                });
+                $("body").css("overflow-y", "auto");
                 console.log('yyyyyy');
                 $('html, body').animate().stop(true);
             }, duration: 1500 });
-        $("body").bind('mousewheel DOMMouseScroll', function () {
-            console.log('helloooooo');
-            e.returnValue = true;
-        });
 
         console.log("вверх прокрутка");
         notScroll = false;
