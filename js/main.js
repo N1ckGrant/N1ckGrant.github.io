@@ -118,16 +118,33 @@ function table_vacancy() {
 
 table_vacancy();
 
+//табы на мобильной -- вакансии
+$('body').on('click', '.table__tab.active', function () {
+    var width = $('body').width();
+
+    if (width < 768) {
+        console.log(width);
+        if (!$(this).parent('ul').hasClass('open')) {
+            $(this).parent('ul').addClass('open');
+        } else {
+            $(this).parent('ul').removeClass('open');
+        }
+    }
+});
+
 function modal() {
     var btn = $('.hero__btn-link');
     var modal = $('#modal');
+    var overBlur = $('.modal__blur');
     btn.on('click', function () {
         console.log('byyyy');
-        modal.show('slow').css('display', 'flex').addClass('active');
+        modal.addClass('active');
+        overBlur.addClass('active');
         $('body').css('overflow', 'hidden');
         if (modal.hasClass('active')) {
             $('.modal .close').on('click', function () {
-                modal.hide('slow');
+                modal.removeClass('active');
+                overBlur.removeClass('active');
                 $('body').css('overflow', 'auto');
             });
         }
@@ -154,68 +171,80 @@ $(".scroll").click(function (event) {
         }, duration: 1500 });
 });
 
-$('#container').hover(function () {
-    $(document).bind('mousewheel DOMMouseScroll', function () {
-        stopWheel();
-    });
-}, function () {
-    $(document).unbind('mousewheel DOMMouseScroll');
-});
+// $('#container').hover(function() {
+//     $(document).bind('mousewheel DOMMouseScroll',function(){
+//         stopWheel();
+//     });
+// }, function() {
+//     $(document).unbind('mousewheel DOMMouseScroll');
+// });
 
-function stopWheel(e) {
-    if (!e) {
-        /* IE7, IE8, Chrome, Safari */
-        e = window.event;
-    }
-    if (e.preventDefault) {
-        /* Chrome, Safari, Firefox */
-        e.preventDefault();
-    }
-    e.returnValue = false; /* IE7, IE8 */
-}
 
-var tempScrollTop,
-    currentScrollTop = 0;
-var notScroll = false;
-$(window).scroll(function () {
-    var $height = $(window).scrollTop();
-    var elem = $('.hero');
-    var target_top = $("#process_block").offset().top;
-    tempScrollTop = currentScrollTop;
-    currentScrollTop = $(window).scrollTop();
-    //scrolling down
+// function stopWheel(e){
+//     if(!e){ /* IE7, IE8, Chrome, Safari */
+//         e = window.event;
+//     }
+//     if(e.preventDefault) { /* Chrome, Safari, Firefox */
+//         e.preventDefault();
+//     }
+//     e.returnValue = false; /* IE7, IE8 */
+// }
 
-    if (tempScrollTop < currentScrollTop && !notScroll && $height > 0 && $height < 20) {
-        // $("body").css("overflow","hidden");
-        console.log('прокрутка вниз');
-
-        $('html, body').animate({ scrollTop: target_top }, { done: function done() {
-                console.log('done');
-                $(this).animate().stop();
-            }, duration: 1500 });
-
-        console.log('первый скролл прошел');
-        console.log('scroll down');
-        notScroll = true;
-    }
-
-    if (tempScrollTop > currentScrollTop && $(document).scrollTop() + $(window).height() > $(elem).offset().top && $(document).scrollTop() - $(elem).offset().top < $(elem).height() && $height > 500) {
-        //scrolling up
-        //          $("body").css("overflow","hidden");
-        $('html, body').animate({ scrollTop: 0 }, { done: function done() {
-                $("body").css("overflow-y", "auto");
-                console.log('yyyyyy');
-                $('html, body').animate().stop(true);
-            }, duration: 1500 });
-
-        console.log("вверх прокрутка");
-        notScroll = false;
-        console.log('второй скролл');
-    } else {
-
-        console.log(notScroll);
-    }
-});
+// function lockScroll(e) {
+//     e.preventDefault();
+// }
+//
+// var tempScrollTop, currentScrollTop = 0;
+// var notScroll = false;
+// $(window).scroll(function(){
+//     var $height = $(window).scrollTop();
+//     var elem = $('.hero');
+//     var target_top = $("#process_block").offset().top;
+//     tempScrollTop = currentScrollTop;
+//     currentScrollTop = $(window).scrollTop();
+// //scrolling down
+//
+//     if(tempScrollTop < currentScrollTop && !notScroll && $height > 0 && $height < 20){
+//         $("body").css("overflow","hidden");
+//         $('body').bind('mousewheel DOMMouseScroll', lockScroll);
+//         console.log('прокрутка вниз');
+//         $('html, body').animate({scrollTop:target_top},{done:function () {
+//                 console.log('done');
+//                 $(this).animate().stop();
+//                 $('body').unbind('mousewheel DOMMouseScroll', lockScroll);
+//                 $("body").css("overflow-y","auto");
+//             }, duration: 1000});
+//         console.log('первый скролл прошел')
+//         console.log('scroll down');
+//         notScroll = true
+//
+//
+//     }
+//
+//
+//      if(tempScrollTop > currentScrollTop  && $(document).scrollTop() + $(window).height() > $(elem).offset().top && $(document).scrollTop() - $(elem).offset().top < $(elem).height() && $height > 500){
+// //scrolling up
+//          $("body").css("overflow","hidden");
+//          $('body').bind('mousewheel DOMMouseScroll', lockScroll);
+//          $('html, body').animate({scrollTop: 0},{done:function () {
+//                  console.log('yyyyyy');
+//                  $('html, body').animate().stop(true);
+//                  $('body').unbind('mousewheel DOMMouseScroll', lockScroll);
+//                  $("body").css("overflow-y","auto");
+//              }, duration: 1000});
+//         console.log("вверх прокрутка");
+//          notScroll = false;
+//         console.log('второй скролл');
+//
+//
+//
+//         }else {
+//
+//         console.log(notScroll);
+//
+//     }
+// });
+// console.log('hello')
 
 /***/ })
 /******/ ]);
