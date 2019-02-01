@@ -165,7 +165,7 @@ $(".scroll").click(function (event) {
     var parts = full_url.split("#");
     var trgt = parts[1];
     var target_offset = $("#" + trgt).offset();
-    var target_top = target_offset.top;
+    var target_top = target_offset.top - 70;
 
     $('html, body').animate({ scrollTop: target_top }, { done: function done() {
             $(this).animate().stop(true);
@@ -174,8 +174,6 @@ $(".scroll").click(function (event) {
 });
 
 $('.header__btn__nav').on('click', function () {
-    console.log('click');
-    alert('есть клик');
     $(this).addClass('active');
     if ($(this).hasClass('active')) {
         $('.header__nav').addClass('open');
@@ -260,6 +258,17 @@ $('.header__btn__nav').on('click', function () {
 //     }
 // });
 // console.log('hello')
+
+
+//header style
+$(window).on("scroll", function () {
+    if ($(window).scrollTop() > 100) {
+        $(".header").addClass("active");
+    } else {
+        //remove the background property so it comes transparent again (defined in your css)
+        $(".header").removeClass("active");
+    }
+});
 
 /***/ })
 /******/ ]);
