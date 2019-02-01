@@ -172,14 +172,17 @@ $(".scroll").click(function (event) {
         }, duration: 1500 });
 });
 
+//madal menu
 $('.header__btn__nav').on('click', function () {
     $(this).addClass('active');
     if ($(this).hasClass('active')) {
         $('.header__nav').addClass('open');
+        $('.l-wrap').css('overflow', 'hidden');
     }
     $('.header__nav.open').find('.header__nav__close').on('click', function () {
         $('.header__nav').removeClass('open');
         $('.header__btn__nav').removeClass('active');
+        $('.l-wrap').css('overflow', '');
     });
 });
 
