@@ -137,7 +137,6 @@ function modal() {
     var modal = $('#modal');
     var overBlur = $('.modal__blur');
     btn.on('click', function () {
-        alert('есть клик2');
         console.log('byyyy');
         modal.addClass('active');
         overBlur.addClass('active');
@@ -268,6 +267,13 @@ $(window).on("scroll", function () {
         //remove the background property so it comes transparent again (defined in your css)
         $(".header").removeClass("active");
     }
+});
+
+//aniamate block onload
+//анимация появления текста
+$(document).ready(function () {
+    //    класс который анимирую в дереве html
+    $('.animate__A').addClass('animate_top');
 });
 
 /***/ })
