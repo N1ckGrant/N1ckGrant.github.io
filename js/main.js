@@ -173,7 +173,7 @@ $(".scroll").click(function (event) {
         }, duration: 1500 });
 });
 
-$('body').on('click', '.header__btn__nav', function () {
+$('.header__btn__nav').on('click', function () {
     console.log('click');
     alert('есть клик');
     $(this).addClass('active');
