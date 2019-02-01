@@ -276,25 +276,26 @@ $(document).ready(function () {
     $('.animate__A').addClass('animate_top');
 });
 
-function come(elem) {
-    var docViewTop = $(window).scrollTop(),
-        docViewBottom = docViewTop + $(window).height(),
-        elemTop = $(elem).offset().top,
-        elemBottom = elemTop + $(elem).height();
+AOS.init();
 
-    return { 'status': elemBottom <= docViewBottom && elemTop >= docViewTop, 'element': $(elem) };
-}
-var counter = 1;
-$(window).on("scroll", function () {
-    var a = come(".l-title");
-    if (a.status) {
-        console.log('window');
-        console.log(a.element.find('.animate__B'));
-        a.element.find('.animate__B').addClass('animate_top');
-        console.log($(".animate__B")[counter]);
-        counter++;
-    }
-});
+// function come(elem) {
+//     var docViewTop = $(window).scrollTop(),
+//         docViewBottom = docViewTop + $(window).height(),
+//         elemTop = $(elem).offset().top,
+//         elemBottom = elemTop + $(elem).height();
+//
+//     return  ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
+// }
+// var counter = 0;
+// $(window).on("scroll", function() {
+//     if (come(".l-title:eq("+counter+")")) {
+//         console.log('window');
+//
+//         $(".animate__B:eq("+counter+")").addClass('animate_top')
+//         console.log($(".animate__B")[counter]);
+//         counter++
+//     }
+// })
 
 /***/ })
 /******/ ]);
