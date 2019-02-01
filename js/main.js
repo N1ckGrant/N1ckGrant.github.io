@@ -174,6 +174,7 @@ $(".scroll").click(function (event) {
 
 $('body').on('click', '.header__btn__nav', function () {
     console.log('click');
+    alert('есть клик');
     $(this).addClass('active');
     if ($(this).hasClass('active')) {
         $('.header__nav').addClass('open');
