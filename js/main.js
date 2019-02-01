@@ -137,6 +137,7 @@ function modal() {
     var modal = $('#modal');
     var overBlur = $('.modal__blur');
     btn.on('click', function () {
+        alert('есть клик2');
         console.log('byyyy');
         modal.addClass('active');
         overBlur.addClass('active');
