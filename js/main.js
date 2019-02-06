@@ -155,7 +155,7 @@ modal();
 
 $('.single-item').slick({
     dots: true,
-    arrow: false
+    arrows: false
 });
 
 $(".scroll").click(function (event) {
@@ -177,12 +177,12 @@ $('.header__btn__nav').on('click', function () {
     $(this).addClass('active');
     if ($(this).hasClass('active')) {
         $('.header__nav').addClass('open');
-        $('.l-wrap').css('overflow', 'hidden');
+        $('body').css('overflow', 'hidden');
     }
     $('.header__nav.open').find('.header__nav__close').on('click', function () {
         $('.header__nav').removeClass('open');
         $('.header__btn__nav').removeClass('active');
-        $('.l-wrap').css('overflow', '');
+        $('body').css('overflow', '');
     });
 });
 
