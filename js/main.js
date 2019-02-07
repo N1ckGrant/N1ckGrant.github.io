@@ -171,7 +171,6 @@ $(".scroll").click(function (event) {
             $("body").css("overflow-y", "auto");
         }, duration: 1500 });
 });
-
 //madal menu
 $('.header__btn__nav').on('click', function () {
     $(this).addClass('active');
@@ -272,6 +271,27 @@ $(window).on("scroll", function () {
     }
 });
 
+//scrollTop
+$(window).on('scroll', function () {
+    var btnTop = $('#btnTop');
+    if ($(window).scrollTop() > 3000) {
+        $(".go-to-top").addClass("active");
+    } else {
+        //remove the background property so it comes transparent again (defined in your css)
+        $(".go-to-top").removeClass("active");
+    }
+});
+$(window).on("scroll", function () {
+    if (come("#btnTop")) {
+        $(".go-to-top").removeClass("active");
+    }
+});
+
+$('body').on('click', '.go-to-top', function () {
+    console.log('click');
+    $('html, body').animate({ scrollTop: 0 }, 'slow');
+});
+
 //aniamate block onload
 //анимация появления текста
 $(document).ready(function () {
@@ -281,14 +301,14 @@ $(document).ready(function () {
 
 AOS.init();
 
-// function come(elem) {
-//     var docViewTop = $(window).scrollTop(),
-//         docViewBottom = docViewTop + $(window).height(),
-//         elemTop = $(elem).offset().top,
-//         elemBottom = elemTop + $(elem).height();
-//
-//     return  ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
-// }
+function come(elem) {
+    var docViewTop = $(window).scrollTop(),
+        docViewBottom = docViewTop + $(window).height(),
+        elemTop = $(elem).offset().top,
+        elemBottom = elemTop + $(elem).height();
+
+    return elemBottom <= docViewBottom && elemTop >= docViewTop;
+}
 // var counter = 0;
 // $(window).on("scroll", function() {
 //     if (come(".l-title:eq("+counter+")")) {
