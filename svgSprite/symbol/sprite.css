@@ -3,6 +3,16 @@
 	height: 24px;
 }
 
+.svg-HTML5-dims {
+	width: 32px;
+	height: 32px;
+}
+
+.svg-IC-MySQL-dims {
+	width: 33px;
+	height: 32px;
+}
+
 .svg-Start-dims {
 	width: 32px;
 	height: 32px;
@@ -111,6 +121,11 @@
 .svg-rea-dims {
 	width: 23px;
 	height: 23px;
+}
+
+.svg-redis-black-dims {
+	width: 32px;
+	height: 28px;
 }
 
 .svg-right_arrow-dims {
