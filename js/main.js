@@ -260,6 +260,34 @@ $('.header__btn__nav').on('click', function () {
 // });
 // console.log('hello')
 
+function lockScroll(e) {
+    e.preventDefault();
+}
+
+if ($('.hero').length > 0) {
+    var notScroll = false;
+    $("body").css('overflow', 'hidden');
+    $(window).on("wheel", function () {
+        $("body").css('position', '');
+        var yak = $('#process_block').offset().top;
+        var marker = $(window).scrollTop();
+        if (marker < yak - 200 && !notScroll) {
+            $(window).bind('mousewheel DOMMouseScroll', lockScroll);
+            console.log('нету');
+            $('html').animate({ scrollTop: yak - 80 }, { done: function done() {
+                    console.log('зашли');
+                    $(window).unbind('mousewheel DOMMouseScroll', lockScroll);
+                    $("body").css("overflow", "auto");
+                }, duration: 3000 });
+            notScroll = true;
+        } else if (marker > yak - 200) {
+            console.log('exxx');
+            $("body").css('overflow', 'auto');
+            $(window).unbind('mousewheel DOMMouseScroll', lockScroll);
+            notScroll = true;
+        }
+    });
+}
 
 //header style
 $(window).on("scroll", function () {
@@ -304,7 +332,7 @@ AOS.init();
 function come(elem) {
     var docViewTop = $(window).scrollTop(),
         docViewBottom = docViewTop + $(window).height(),
-        elemTop = $(elem).offset().top,
+        elemTop = $(elem).offset(),
         elemBottom = elemTop + $(elem).height();
 
     return elemBottom <= docViewBottom && elemTop >= docViewTop;
