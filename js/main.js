@@ -79,6 +79,17 @@ module.exports = __webpack_require__(1);
 
 console.log('Hello from main.js!');
 
+function registerServiceWorker() {
+    // регистрирует скрипт sw в поддерживаемых браузерах
+    if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('sw.js', { scope: '/' }).then(function () {
+            console.log('Service Worker registered successfully.');
+        }).catch(function (error) {
+            console.log('Service Worker registration failed:', error);
+        });
+    }
+}
+
 function dropAcordion() {
     var blockBox = $('.process__item');
     $(blockBox).on('click', function () {
@@ -279,7 +290,7 @@ if ($('body').width() > 960) {
                         console.log('зашли');
                         $(window).unbind('mousewheel DOMMouseScroll', lockScroll);
                         $("body").css("overflow", "auto");
-                    }, duration: 3000 });
+                    }, duration: 1500 });
                 notScroll = true;
             } else if (marker > yak - 200) {
                 console.log('exxx');
