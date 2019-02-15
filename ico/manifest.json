@@ -39,12 +39,13 @@
   },
   {
    "name": "Peiko",
-   "short_name": "Peiko",
+   "short_name": "Pei",
    "lang": "ru-RU",
    "start_url": "https://n1ckgrant.github.io/index.html",
    "scope": "https://n1ckgrant.github.io/IGT_crypto.html",
+   "background_color": "#blue",
    "display": "standalone",
-   "theme_color": "#43bad6",
+   "theme_color": "blue",
    "icons": [
     {
      "src": "img/introBG.gif"
