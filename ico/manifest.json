@@ -1,6 +1,16 @@
 {
- "name": "App",
+ "name": "Peiko",
+ "short_name": "Pei",
+ "lang": "ru-RU",
+ "start_url": "https://n1ckgrant.github.io/index.html",
+ "scope": "https://n1ckgrant.github.io/IGT_crypto.html",
+ "background_color": "#blue",
+ "display": "standalone",
+ "theme_color": "blue",
  "icons": [
+  {
+   "src": "img/introBG.gif"
+  },
   {
    "src": "\/ico/android-icon-36x36.png",
    "sizes": "36x36",
@@ -38,19 +48,6 @@
    "density": "4.0"
   },
   {
-   "name": "Peiko",
-   "short_name": "Pei",
-   "lang": "ru-RU",
-   "start_url": "https://n1ckgrant.github.io/index.html",
-   "scope": "https://n1ckgrant.github.io/IGT_crypto.html",
-   "background_color": "#blue",
-   "display": "standalone",
-   "theme_color": "blue",
-   "icons": [
-    {
-     "src": "img/introBG.gif"
-    }
-   ],
    "prefer_related_applications": true
   }
  ]
