@@ -4,13 +4,10 @@
  "lang": "ru-RU",
  "start_url": "https://n1ckgrant.github.io/index.html",
  "scope": "https://n1ckgrant.github.io/IGT_crypto.html",
- "background_color": "blue",
+ "background_color": "#43bad6",
  "display": "standalone",
  "theme_color": "blue",
  "icons": [
-  {
-   "src": "img/introBG.gif"
-  },
   {
    "src": "\/ico/android-icon-36x36.png",
    "sizes": "36x36",
