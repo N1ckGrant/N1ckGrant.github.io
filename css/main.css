@@ -2749,6 +2749,7 @@ h3.headlineProject {
   object-fit: cover;
   height: 100%;
 }
+
 @media screen and (max-width: 768px){
   .hero__videoBG{
     display: none;
