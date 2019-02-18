@@ -273,7 +273,7 @@ html {
     flex-wrap: wrap; }
     @media screen and (max-width: 768px) {
       .header__nav {
-        background: url("../img/bg__hero.png");
+        background: url("../img/bg__hero.svg");
         background-size: cover;
         background-repeat: no-repeat;
         text-align: center;
@@ -2754,7 +2754,7 @@ h3.headlineProject {
     display: none;
   }
   .hero{
-    background-image: url("../img/bg__hero.png");
+    background-image: url("../img/bg__hero.svg");
     background-repeat: no-repeat;
     background-position-x: center;
     background-size: cover;
