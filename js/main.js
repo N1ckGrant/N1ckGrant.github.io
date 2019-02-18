@@ -281,14 +281,14 @@ function lockScroll(e) {
 }
 if ($('body').width() > 960) {
     console.log('WWW');
-    if ($('.hero').length > 0) {
+    if ($('.hero').length > 0 ) {
         var notScroll = false;
         $("body").css('overflow-y', 'hidden');
         $(window).on("wheel", function () {
             $("body").css('position', '');
             var yak = $('#process_block').offset().top;
             var marker = $(window).scrollTop();
-            if (marker < yak - 200 && !notScroll) {
+            if (marker < yak - 200 && !notScroll && !$('#modal').hasClass('active')) {
                 $(window).bind('mousewheel DOMMouseScroll', lockScroll);
                 console.log('нету');
                 $('html').animate({ scrollTop: yak - 80 }, { done: function done() {
