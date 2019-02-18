@@ -273,7 +273,7 @@ html {
     flex-wrap: wrap; }
     @media screen and (max-width: 768px) {
       .header__nav {
-        background: url("../img/introBG.gif");
+        background: url("../img/bg__hero.png");
         background-size: cover;
         background-repeat: no-repeat;
         text-align: center;
@@ -2734,6 +2734,7 @@ h3.headlineProject {
   overflow: hidden;
   z-index: 1;
 }
+
 .hero__videoBG{
   position: absolute;
   overflow: hidden;
@@ -2747,4 +2748,15 @@ h3.headlineProject {
   width: 100%;
   object-fit: cover;
   height: 100%;
+}
+@media screen and (max-width: 768px){
+  .hero__videoBG{
+    display: none;
+  }
+  .hero{
+    background-image: url("../img/bg__hero.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: cover;
+  }
 }
