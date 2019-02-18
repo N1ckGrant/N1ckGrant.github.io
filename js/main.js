@@ -93,6 +93,7 @@ function registerServiceWorker() {
 function dropAcordion() {
     var blockBox = $('.process__item');
     $(blockBox).on('click', function () {
+
         var blockBoxContent = $(this).find('.process__body');
         if ($(this).hasClass('active')) {
             $(this).removeClass('active');
@@ -103,10 +104,14 @@ function dropAcordion() {
 
             console.log('3');
         }
+        setTimeout(function () {
+            AOS.refresh();
+        },200)
+
     });
 }
-
 dropAcordion();
+
 
 function tabVacancy() {
     var tab = $('.table__tab');
