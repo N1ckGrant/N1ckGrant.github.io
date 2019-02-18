@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="87e94da4-090c-4431-8db9-d19267841696" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,19 +41,19 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="199" />
+          <entry key="css" value="201" />
           <entry key="html" value="223" />
-          <entry key="js" value="52" />
+          <entry key="js" value="73" />
           <entry key="json" value="2" />
           <entry key="txt" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="199" />
+          <entry key="CSS" value="201" />
           <entry key="HTML" value="223" />
           <entry key="JSON" value="2" />
-          <entry key="JavaScript" value="52" />
+          <entry key="JavaScript" value="73" />
           <entry key="PLAIN_TEXT" value="3" />
         </counts>
       </usages-collector>
@@ -61,7 +61,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="561">
@@ -73,17 +73,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="588">
-              <caret line="2751" selection-start-line="2751" selection-end-line="2751" />
+            <state relative-caret-position="782">
+              <caret line="818" column="9" selection-start-line="818" selection-start-column="9" selection-end-line="818" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="755">
-              <caret line="372" lean-forward="true" selection-start-line="372" selection-end-line="372" />
+            <state relative-caret-position="629">
+              <caret line="301" column="36" lean-forward="true" selection-start-line="301" selection-start-column="36" selection-end-line="301" selection-end-column="36" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -94,7 +94,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
+            <state relative-caret-position="704">
               <caret line="77" selection-start-line="77" selection-end-line="77" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -139,9 +139,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/ico/manifest.json" />
-        <option value="$PROJECT_DIR$/js/main.js" />
-        <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/js/main.js" />
       </list>
     </option>
   </component>
@@ -229,7 +229,7 @@
       <option name="presentableId" value="Default" />
       <updated>1550488675153</updated>
       <workItem from="1550488676420" duration="12198000" />
-      <workItem from="1550503556566" duration="1209000" />
+      <workItem from="1550503556566" duration="1695000" />
     </task>
     <task id="LOCAL-00001" summary="fix">
       <created>1550489124447</created>
@@ -308,11 +308,25 @@
       <option name="project" value="LOCAL" />
       <updated>1550504610902</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="fix">
+      <created>1550504781333</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1550504781333</updated>
+    </task>
+    <task id="LOCAL-00013" summary="fix">
+      <created>1550504978868</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1550504978868</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13407000" />
+    <option name="totallyTimeSpent" value="13893000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -385,9 +399,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="87" column="59" selection-start-line="87" selection-start-column="59" selection-end-line="87" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="818" column="9" selection-start-line="818" selection-start-column="9" selection-end-line="818" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
+        <state relative-caret-position="704">
           <caret line="77" selection-start-line="77" selection-end-line="77" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
@@ -395,27 +423,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="2751" selection-start-line="2751" selection-end-line="2751" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="755">
-          <caret line="372" lean-forward="true" selection-start-line="372" selection-end-line="372" />
+        <state relative-caret-position="629">
+          <caret line="301" column="36" lean-forward="true" selection-start-line="301" selection-start-column="36" selection-end-line="301" selection-end-column="36" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="87" column="59" selection-start-line="87" selection-start-column="59" selection-end-line="87" selection-end-column="59" />
         </state>
       </provider>
     </entry>

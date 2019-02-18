@@ -283,7 +283,7 @@ if ($('body').width() > 960) {
     console.log('WWW');
     if ($('.hero').length > 0) {
         var notScroll = false;
-        $("body").css('overflow', 'hidden');
+        $("body").css('overflow-y', 'hidden');
         $(window).on("wheel", function () {
             $("body").css('position', '');
             var yak = $('#process_block').offset().top;
@@ -294,12 +294,14 @@ if ($('body').width() > 960) {
                 $('html').animate({ scrollTop: yak - 80 }, { done: function done() {
                         console.log('зашли');
                         $(window).unbind('mousewheel DOMMouseScroll', lockScroll);
-                        $("body").css("overflow", "auto");
+                        $("body").css("overflow-y", "auto");
+                        $("body").css('overflow-x', 'hidden');
                     }, duration: 1500 });
                 notScroll = true;
             } else if (marker > yak - 200) {
                 console.log('exxx');
-                $("body").css('overflow', 'auto');
+                $("body").css('overflow-y', 'auto');
+                $("body").css('overflow-x', 'hidden');
                 $(window).unbind('mousewheel DOMMouseScroll', lockScroll);
                 notScroll = true;
             }
