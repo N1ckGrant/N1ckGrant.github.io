@@ -349,6 +349,20 @@ $(document).ready(function () {
 
 AOS.init();
 
+
+
+//========================================================page NEW projets==========================
+        $('.other-project__slider').slick({
+            dots: false,
+            infinite: true,
+            speed: 300,
+            slidesToShow: 2,
+            centerMode: true,
+            variableWidth: false,
+            prevArrow: $('.other-project .arrow.prew'),
+            nextArrow: $('.other-project .arrow.next')
+        });
+
 function come(elem) {
     var docViewTop = $(window).scrollTop(),
         docViewBottom = docViewTop + $(window).height(),
