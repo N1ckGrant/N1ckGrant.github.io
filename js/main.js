@@ -363,6 +363,60 @@ AOS.init();
             nextArrow: $('.other-project .arrow.next')
         });
 
+
+//        scroll custom ====================================================
+
+        $(window).on('scroll',function () {
+
+            var headerHeight = $('.header').innerHeight();
+            var contentHeight = $('.projects__wrap').innerHeight() - 80;
+            var sidebarHeight = $('.projects__wrap__bar__fixed').height();
+            var sidebarBottomPos = contentHeight - sidebarHeight;
+            var trigger = $(window).scrollTop() - headerHeight ;
+
+            if ($(window).scrollTop() >= headerHeight) {
+                $('.projects__wrap__bar__fixed').addClass('fixed');
+            } else {
+                $('.projects__wrap__bar__fixed').removeClass('fixed');
+            }
+
+            if (trigger >= sidebarBottomPos) {
+                $('.projects__wrap__bar__fixed').addClass('bottom');
+            } else {
+                $('.projects__wrap__bar__fixed').removeClass('bottom');
+            }
+        });
+//        scroll active==================================================================
+
+        $(window).scroll(function () {
+            var scrollDistance = $(window).scrollTop();
+
+            $('.content-item').each(function (index) {
+                if ($(this).position().top - 140 <= scrollDistance) {
+                    $('a[href*="#"]:not([href="#"]).active').removeClass('active');
+                    $('a.link-project').eq(index).addClass('active');
+                    console.log('scroll hello')
+                }
+            });
+
+        }).scroll();
+
+        //Scroll to anchor==================================================================================
+
+            $('a[href*="#"]:not([href="#"])').on('click',function () {
+                if (location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') && location.hostname === this.hostname) {
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                    if (target.length) {
+                        $('html, body').animate({
+                            scrollTop: target.offset().top - 80
+                        }, 500);
+                        return false;
+                    }
+                }
+            });
+
+
 function come(elem) {
     var docViewTop = $(window).scrollTop(),
         docViewBottom = docViewTop + $(window).height(),
