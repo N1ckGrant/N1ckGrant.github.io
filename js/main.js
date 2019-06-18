@@ -395,7 +395,6 @@ AOS.init();
                 if ($(this).position().top - 140 <= scrollDistance) {
                     $('a[href*="#"]:not([href="#"]).active').removeClass('active');
                     $('a.link-project').eq(index).addClass('active');
-                    console.log('scroll hello')
                 }
             });
 
