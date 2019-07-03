@@ -349,7 +349,19 @@ $(document).ready(function () {
 
 AOS.init();
 
-
+//animation Bubble
+        $('.process__box__content').find('.item').each(function (i) {
+            let item = $('.process__box__content').find('.item')
+            console.log(item)
+            if(item.length > 2){
+                $('<div class="buble-mini"  data-aos="buble1-mini" data-aos-anchor-placement="top-bottom" data-aos-delay="1000" data-aos-duration="1000"></div>').insertAfter($(item[0]));
+                $('<div class="buble-mini"  data-aos="buble1-mini" data-aos-anchor-placement="top-bottom" data-aos-delay="1000" data-aos-duration="1000"></div>').insertAfter($(item[1]));
+            }else if(item.length > 3){
+                $('<div class="buble-mini"  data-aos="buble1-mini" data-aos-anchor-placement="top-bottom" data-aos-delay="1000" data-aos-duration="1000"></div>').insertAfter($(item[0]));
+                $('<div class="buble-mini"  data-aos="buble1-mini" data-aos-anchor-placement="top-bottom" data-aos-delay="1000" data-aos-duration="1000"></div>').insertAfter($(item[1]));
+                $('<div class="buble-mini"  data-aos="buble1-mini" data-aos-anchor-placement="top-bottom" data-aos-delay="1000" data-aos-duration="1000"></div>').insertAfter($(item[2]));
+            }
+        });
 
 //========================================================page NEW projets==========================
         $('.other-project__slider').slick({
