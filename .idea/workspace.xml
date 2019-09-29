@@ -2,22 +2,103 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87e94da4-090c-4431-8db9-d19267841696" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/e-market-en.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e-market.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/slick/ajax-loader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medical-site.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/turnkey-website-en.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/turnkey-website.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/project-new.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/project-new.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-salvi.html" beforeDir="false" afterPath="$PROJECT_DIR$/project-salvi.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects__new.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects__new.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/bg__emarket.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/bg__sitekey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/bg_head.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/organizationTeam/Brief.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/organizationTeam/Design.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/organizationTeam/Develop.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/organizationTeam/Testing.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/organizationTeam/emarket-en/step-1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/organizationTeam/emarket-en/step-2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/organizationTeam/emarket-en/step-3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/organizationTeam/emarket-en/step-4.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/organizationTeam/emarket-en/step-5.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/organizationTeam/emarket-en/stepm-1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/organizationTeam/emarket-en/stepm-2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/organizationTeam/emarket-en/stepm-3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/organizationTeam/emarket-en/stepm-4.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/organizationTeam/emarket-en/stepm-5.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/organizationTeam/emarket-rus/step-1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/organizationTeam/emarket-rus/step-2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/organizationTeam/emarket-rus/step-3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/organizationTeam/emarket-rus/step-4.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/organizationTeam/emarket-rus/step-5.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/organizationTeam/emarket-rus/stepm-1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/organizationTeam/emarket-rus/stepm-2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/organizationTeam/emarket-rus/stepm-3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/organizationTeam/emarket-rus/stepm-4.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/organizationTeam/emarket-rus/stepm-5.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/organizationTeam/medicalsite/step-1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/organizationTeam/medicalsite/step-2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/organizationTeam/medicalsite/step-3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/organizationTeam/medicalsite/step-4.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/organizationTeam/medicalsite/stepm-1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/organizationTeam/medicalsite/stepm-2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/organizationTeam/medicalsite/stepm-3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/organizationTeam/medicalsite/stepm-4.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/organizationTeam/server.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/organizationTeam/sitekey-en/step-1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/organizationTeam/sitekey-en/step-2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/organizationTeam/sitekey-en/step-3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/organizationTeam/sitekey-en/step-4.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/organizationTeam/sitekey-en/stepm-1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/organizationTeam/sitekey-en/stepm-2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/organizationTeam/sitekey-en/stepm-3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/organizationTeam/sitekey-en/stepm-4.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/organizationTeam/sitekey-rus/step-1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/organizationTeam/sitekey-rus/step-2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/organizationTeam/sitekey-rus/step-3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/organizationTeam/sitekey-rus/step-4.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/organizationTeam/sitekey-rus/stepm-1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/organizationTeam/sitekey-rus/stepm-2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/organizationTeam/sitekey-rus/stepm-3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/organizationTeam/sitekey-rus/stepm-4.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/organizationTeam/ux.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/services/Clutch-mob.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/services/Clutch.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/services/apps.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/services/blockchain.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/services/chart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/services/desingrush-mob.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/services/desingrush.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/services/edit-tools.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/services/exelent-mob.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/services/exelent.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/services/server.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/services/servise__main-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/services/software.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/services/testing.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/services/web.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/team/desing.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/team/develop.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/team/devops.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/team/meneger.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/team/testing.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/types__service/auction.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/types__service/banking.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/types__service/commerce.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/types__service/corporate.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/types__service/credit.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/types__service/financial.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/types__service/healthcare.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/types__service/marketplace.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/types__service/medical.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/types__service/peertopeer.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/types__service/portal.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/types__service/project.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/types__service/travel.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/types__tech/angular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/types__tech/django.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/types__tech/laravel.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/types__tech/mobgoBD.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/types__tech/nodejs.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/types__tech/php.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/types__tech/react.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/types__tech/sql.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/types__tech/symfony.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/types__tech/vue.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/types__tech/yii2.svg" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -136,7 +217,7 @@
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="763">
-              <caret line="110" column="85" selection-start-line="110" selection-start-column="85" selection-end-line="110" selection-end-column="85" />
+              <caret line="110" column="85" lean-forward="true" selection-start-line="110" selection-start-column="85" selection-end-line="110" selection-end-column="85" />
             </state>
           </provider>
         </entry>
@@ -307,6 +388,11 @@
               <item name="N1ckGrant.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="N1ckGrant.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="N1ckGrant.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -372,7 +458,7 @@
       <workItem from="1569411444774" duration="29838000" />
       <workItem from="1569587975391" duration="650000" />
       <workItem from="1569594742631" duration="4584000" />
-      <workItem from="1569752468639" duration="307000" />
+      <workItem from="1569752468639" duration="609000" />
     </task>
     <task id="LOCAL-00001" summary="fix">
       <created>1550489124447</created>
@@ -521,15 +607,21 @@
       <option name="project" value="LOCAL" />
       <updated>1562154435644</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Salvi New project">
+      <created>1569755397701</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1569755397701</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137610000" />
+    <option name="totallyTimeSpent" value="137912000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1934" height="1047" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19113721" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -715,7 +807,7 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="763">
-          <caret line="110" column="85" selection-start-line="110" selection-start-column="85" selection-end-line="110" selection-end-column="85" />
+          <caret line="110" column="85" lean-forward="true" selection-start-line="110" selection-start-column="85" selection-end-line="110" selection-end-column="85" />
         </state>
       </provider>
     </entry>
