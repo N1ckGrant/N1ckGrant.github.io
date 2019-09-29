@@ -1,367 +1,337 @@
-/******/ (function(modules) { // webpackBootstrap
-/******/ 	// The module cache
-/******/ 	var installedModules = {};
 /******/
-/******/ 	// The require function
-/******/ 	function __webpack_require__(moduleId) {
-/******/
-/******/ 		// Check if module is in cache
-/******/ 		if(installedModules[moduleId]) {
-/******/ 			return installedModules[moduleId].exports;
-/******/ 		}
-/******/ 		// Create a new module (and put it into the cache)
-/******/ 		var module = installedModules[moduleId] = {
-/******/ 			i: moduleId,
-/******/ 			l: false,
-/******/ 			exports: {}
-/******/ 		};
-/******/
-/******/ 		// Execute the module function
-/******/ 		modules[moduleId].call(module.exports, module, module.exports, __webpack_require__);
-/******/
-/******/ 		// Flag the module as loaded
-/******/ 		module.l = true;
-/******/
-/******/ 		// Return the exports of the module
-/******/ 		return module.exports;
-/******/ 	}
-/******/
-/******/
-/******/ 	// expose the modules object (__webpack_modules__)
-/******/ 	__webpack_require__.m = modules;
-/******/
-/******/ 	// expose the module cache
-/******/ 	__webpack_require__.c = installedModules;
-/******/
-/******/ 	// define getter function for harmony exports
-/******/ 	__webpack_require__.d = function(exports, name, getter) {
-/******/ 		if(!__webpack_require__.o(exports, name)) {
-/******/ 			Object.defineProperty(exports, name, {
-/******/ 				configurable: false,
-/******/ 				enumerable: true,
-/******/ 				get: getter
-/******/ 			});
-/******/ 		}
-/******/ 	};
-/******/
-/******/ 	// getDefaultExport function for compatibility with non-harmony modules
-/******/ 	__webpack_require__.n = function(module) {
-/******/ 		var getter = module && module.__esModule ?
-/******/ 			function getDefault() { return module['default']; } :
-/******/ 			function getModuleExports() { return module; };
-/******/ 		__webpack_require__.d(getter, 'a', getter);
-/******/ 		return getter;
-/******/ 	};
-/******/
-/******/ 	// Object.prototype.hasOwnProperty.call
-/******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
-/******/
-/******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "";
-/******/
-/******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 0);
-/******/ })
+(function (modules) { // webpackBootstrap
+    /******/ 	// The module cache
+    /******/
+    var installedModules = {};
+    /******/
+    /******/ 	// The require function
+    /******/
+    function __webpack_require__(moduleId) {
+        /******/
+        /******/ 		// Check if module is in cache
+        /******/
+        if (installedModules[moduleId]) {
+            /******/
+            return installedModules[moduleId].exports;
+            /******/
+        }
+        /******/ 		// Create a new module (and put it into the cache)
+        /******/
+        var module = installedModules[moduleId] = {
+            /******/            i: moduleId,
+            /******/            l: false,
+            /******/            exports: {}
+            /******/
+        };
+        /******/
+        /******/ 		// Execute the module function
+        /******/
+        modules[moduleId].call(module.exports, module, module.exports, __webpack_require__);
+        /******/
+        /******/ 		// Flag the module as loaded
+        /******/
+        module.l = true;
+        /******/
+        /******/ 		// Return the exports of the module
+        /******/
+        return module.exports;
+        /******/
+    }
+
+    /******/
+    /******/
+    /******/ 	// expose the modules object (__webpack_modules__)
+    /******/
+    __webpack_require__.m = modules;
+    /******/
+    /******/ 	// expose the module cache
+    /******/
+    __webpack_require__.c = installedModules;
+    /******/
+    /******/ 	// define getter function for harmony exports
+    /******/
+    __webpack_require__.d = function (exports, name, getter) {
+        /******/
+        if (!__webpack_require__.o(exports, name)) {
+            /******/
+            Object.defineProperty(exports, name, {
+                /******/                configurable: false,
+                /******/                enumerable: true,
+                /******/                get: getter
+                /******/
+            });
+            /******/
+        }
+        /******/
+    };
+    /******/
+    /******/ 	// getDefaultExport function for compatibility with non-harmony modules
+    /******/
+    __webpack_require__.n = function (module) {
+        /******/
+        var getter = module && module.__esModule ?
+            /******/            function getDefault() {
+                return module['default'];
+            } :
+            /******/            function getModuleExports() {
+                return module;
+            };
+        /******/
+        __webpack_require__.d(getter, 'a', getter);
+        /******/
+        return getter;
+        /******/
+    };
+    /******/
+    /******/ 	// Object.prototype.hasOwnProperty.call
+    /******/
+    __webpack_require__.o = function (object, property) {
+        return Object.prototype.hasOwnProperty.call(object, property);
+    };
+    /******/
+    /******/ 	// __webpack_public_path__
+    /******/
+    __webpack_require__.p = "";
+    /******/
+    /******/ 	// Load entry module and return exports
+    /******/
+    return __webpack_require__(__webpack_require__.s = 0);
+    /******/
+})
 /************************************************************************/
-/******/ ([
-/* 0 */
-/***/ (function(module, exports, __webpack_require__) {
+/******/([
+    /* 0 */
+    /***/ (function (module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(1);
-
-
-/***/ }),
-/* 1 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
+        module.exports = __webpack_require__(1);
 
 
-console.log('Hello from main.js!');
+        /***/
+    }),
+    /* 1 */
+    /***/ (function (module, exports, __webpack_require__) {
 
-function registerServiceWorker() {
-    // регистрирует скрипт sw в поддерживаемых браузерах
-    if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('sw.js', { scope: '/' }).then(function () {
-            console.log('Service Worker registered successfully.');
-        }).catch(function (error) {
-            console.log('Service Worker registration failed:', error);
-        });
-    }
-}
+        "use strict";
 
-function dropAcordion() {
-    var blockBox = $('.process__item');
-    $(blockBox).on('click', function () {
 
-        var blockBoxContent = $(this).find('.process__body');
-        if ($(this).hasClass('active')) {
-            $(this).removeClass('active');
-            console.log('1');
-        } else {
-            $(blockBox).removeClass('active');
-            $(this).addClass('active');
+        console.log('Hello from main.js!');
 
-            console.log('3');
+        function registerServiceWorker() {
+            // регистрирует скрипт sw в поддерживаемых браузерах
+            if ('serviceWorker' in navigator) {
+                navigator.serviceWorker.register('sw.js', {scope: '/'}).then(function () {
+                    console.log('Service Worker registered successfully.');
+                }).catch(function (error) {
+                    console.log('Service Worker registration failed:', error);
+                });
+            }
         }
-        setTimeout(function () {
-            AOS.refresh();
-        },200)
 
-    });
-}
-dropAcordion();
+        function dropAcordion() {
+            var blockBox = $('.process__item');
+            $(blockBox).on('click', function () {
+
+                var blockBoxContent = $(this).find('.process__body');
+                if ($(this).hasClass('active')) {
+                    $(this).removeClass('active');
+
+                } else {
+                    $(blockBox).removeClass('active');
+                    $(this).addClass('active');
 
 
-function tabVacancy() {
-    var tab = $('.table__tab');
-    $(tab).on('click', function () {
-        $(tab).removeClass('active');
-        $(this).addClass('active');
-    });
-}
+                }
+                setTimeout(function () {
+                    AOS.refresh();
+                }, 200)
 
-tabVacancy();
-
-function table_vacancy() {
-    var tabs = $('.table__tab');
-    console.log($('[data-vacancy]'));
-    $(tabs).on('click', function () {
-        $('.table__body').removeClass('active');
-        $('#' + $(this).attr('data-vacancy')).addClass('active');
-    });
-}
-
-table_vacancy();
-
-//табы на мобильной -- вакансии
-$('body').on('click', '.table__tab.active', function () {
-    var width = $('body').width();
-
-    if (width < 788) {
-        console.log(width);
-        if (!$(this).parent('ul').hasClass('open')) {
-            $(this).parent('ul').addClass('open');
-        } else {
-            $(this).parent('ul').removeClass('open');
-        }
-    }
-});
-
-function modal() {
-    var btn = $('.hero__btn-link');
-    var modal = $('#modal');
-    var overBlur = $('.modal__blur');
-    btn.on('click', function () {
-        console.log('byyyy');
-        modal.addClass('active');
-        overBlur.addClass('active');
-        $('body').css('overflow', 'hidden');
-        if (modal.hasClass('active')) {
-            $('.modal .close').on('click', function () {
-                modal.removeClass('active');
-                overBlur.removeClass('active');
-                $('body').css('overflow', 'auto');
             });
         }
-    });
-}
 
-modal();
+        dropAcordion();
 
-$('.single-item').slick({
-    dots: true,
-    arrows: false
-});
 
-$(".scroll").click(function (event) {
-    event.preventDefault();
-    var full_url = this.href;
-    var parts = full_url.split("#");
-    var trgt = parts[1];
-    var target_offset = $("#" + trgt).offset();
-    var target_top = target_offset.top - 70;
+        function tabVacancy() {
+            var tab = $('.table__tab');
+            $(tab).on('click', function () {
+                $(tab).removeClass('active');
+                $(this).addClass('active');
+            });
+        }
 
-    $('html, body').animate({ scrollTop: target_top }, { done: function done() {
-            $(this).animate().stop(true);
-            $("body").css("overflow-y", "auto");
-        }, duration: 1500 });
-});
+        tabVacancy();
+
+        function table_vacancy() {
+            var tabs = $('.table__tab');
+            $(tabs).on('click', function () {
+                $('.table__body').removeClass('active');
+                $('#' + $(this).attr('data-vacancy')).addClass('active');
+            });
+        }
+
+        table_vacancy();
+
+//табы на мобильной -- вакансии
+        $('body').on('click', '.table__tab.active', function () {
+            var width = $('body').width();
+
+            if (width < 788) {
+
+                if (!$(this).parent('ul').hasClass('open')) {
+                    $(this).parent('ul').addClass('open');
+                } else {
+                    $(this).parent('ul').removeClass('open');
+                }
+            }
+        });
+
+        function modal() {
+            var btn = $('.btn-link');
+            var modal = $('#modal');
+            btn.on('click', function () {
+
+                modal.addClass('active');
+                $('body').css('overflow', 'hidden');
+                if (modal.hasClass('active')) {
+                    $('.modal .close').on('click', function () {
+                        modal.removeClass('active');
+                        $('body').css('overflow', 'auto');
+                    });
+
+                    console.log($(this).data('vacancy'));
+
+                    $('#contactform-vacancy_id').val($(this).data('vacancy'));
+                }
+
+
+            });
+        }
+
+        modal();
+
+        $('.single-item').slick({
+            dots: true,
+            arrows: false,
+            slidesToShow: 1
+        });
+
+        $(".scroll").click(function (event) {
+            event.preventDefault();
+            var full_url = this.href;
+            var parts = full_url.split("#");
+            var trgt = parts[1];
+            var target_offset = $("#" + trgt).offset();
+            var target_top = target_offset.top - 70;
+
+            $('html, body').animate({scrollTop: target_top}, {
+                done: function done() {
+                    $(this).animate().stop(true);
+                    $("body").css("overflow-y", "auto");
+                }, duration: 1500
+            });
+        });
 //madal menu
-$('.header__btn__nav').on('click', function () {
-    $(this).addClass('active');
-    if ($(this).hasClass('active')) {
-        $('.header__nav').addClass('open');
-        $('body').css('overflow', 'hidden');
-    }
-    $('.header__nav.open').find('.header__nav__close').on('click', function () {
-        $('.header__nav').removeClass('open');
-        $('.header__btn__nav').removeClass('active');
-        $('body').css('overflow', '');
-    });
-});
+        $('.header__btn__nav').on('click', function () {
+            $(this).addClass('active');
+            if ($(this).hasClass('active')) {
+                $('.header__nav').addClass('open');
+                $('body').css('overflow', 'hidden');
+            }
+            $('.header__nav.open').find('.header__nav__close').on('click', function () {
+                $('.header__nav').removeClass('open');
+                $('.header__btn__nav').removeClass('active');
+                $('body').css('overflow', '');
+            });
+        });
 
-// $('#container').hover(function() {
-//     $(document).bind('mousewheel DOMMouseScroll',function(){
-//         stopWheel();
-//     });
-// }, function() {
-//     $(document).unbind('mousewheel DOMMouseScroll');
-// });
-
-
-// function stopWheel(e){
-//     if(!e){ /* IE7, IE8, Chrome, Safari */
-//         e = window.event;
-//     }
-//     if(e.preventDefault) { /* Chrome, Safari, Firefox */
-//         e.preventDefault();
-//     }
-//     e.returnValue = false; /* IE7, IE8 */
-// }
 
 // function lockScroll(e) {
 //     e.preventDefault();
 // }
+// if ($('body').width() > 960) {
 //
-// var tempScrollTop, currentScrollTop = 0;
-// var notScroll = false;
-// $(window).scroll(function(){
-//     var $height = $(window).scrollTop();
-//     var elem = $('.hero');
-//     var target_top = $("#process_block").offset().top;
-//     tempScrollTop = currentScrollTop;
-//     currentScrollTop = $(window).scrollTop();
-// //scrolling down
+//     if ($('.hero').length > 0 ) {
+//         var notScroll = false;
+//         $("body").css('overflow-y', 'hidden');
+//         $(window).on("wheel", function () {
+//             $("body").css('position', '');
+//             var yak = $('#process_block').offset().top;
+//             var marker = $(window).scrollTop();
+//             if (marker < yak - 200 && !notScroll && !$('#modal').hasClass('active')) {
+//                 $(window).bind('mousewheel DOMMouseScroll', lockScroll);
 //
-//     if(tempScrollTop < currentScrollTop && !notScroll && $height > 0 && $height < 20){
-//         $("body").css("overflow","hidden");
-//         $('body').bind('mousewheel DOMMouseScroll', lockScroll);
-//         console.log('прокрутка вниз');
-//         $('html, body').animate({scrollTop:target_top},{done:function () {
-//                 console.log('done');
-//                 $(this).animate().stop();
-//                 $('body').unbind('mousewheel DOMMouseScroll', lockScroll);
-//                 $("body").css("overflow-y","auto");
-//             }, duration: 1000});
-//         console.log('первый скролл прошел')
-//         console.log('scroll down');
-//         notScroll = true
+//                 $('html').animate({ scrollTop: yak - 80 }, { done: function done() {
 //
+//                         $(window).unbind('mousewheel DOMMouseScroll', lockScroll);
+//                         $("body").css("overflow-y", "auto");
+//                         $("body").css('overflow-x', 'hidden');
+//                     }, duration: 1500 });
+//                 notScroll = true;
+//             } else if (marker > yak - 200) {
 //
+//                 $("body").css('overflow-y', 'auto');
+//                 $("body").css('overflow-x', 'hidden');
+//                 $(window).unbind('mousewheel DOMMouseScroll', lockScroll);
+//                 notScroll = true;
+//             }
+//         });
 //     }
-//
-//
-//      if(tempScrollTop > currentScrollTop  && $(document).scrollTop() + $(window).height() > $(elem).offset().top && $(document).scrollTop() - $(elem).offset().top < $(elem).height() && $height > 500){
-// //scrolling up
-//          $("body").css("overflow","hidden");
-//          $('body').bind('mousewheel DOMMouseScroll', lockScroll);
-//          $('html, body').animate({scrollTop: 0},{done:function () {
-//                  console.log('yyyyyy');
-//                  $('html, body').animate().stop(true);
-//                  $('body').unbind('mousewheel DOMMouseScroll', lockScroll);
-//                  $("body").css("overflow-y","auto");
-//              }, duration: 1000});
-//         console.log("вверх прокрутка");
-//          notScroll = false;
-//         console.log('второй скролл');
-//
-//
-//
-//         }else {
-//
-//         console.log(notScroll);
-//
-//     }
-// });
-// console.log('hello')
-
-function lockScroll(e) {
-    e.preventDefault();
-}
-if ($('body').width() > 960) {
-    console.log('WWW');
-    if ($('.hero').length > 0 ) {
-        var notScroll = false;
-        $("body").css('overflow-y', 'hidden');
-        $(window).on("wheel", function () {
-            $("body").css('position', '');
-            var yak = $('#process_block').offset().top;
-            var marker = $(window).scrollTop();
-            if (marker < yak - 200 && !notScroll && !$('#modal').hasClass('active')) {
-                $(window).bind('mousewheel DOMMouseScroll', lockScroll);
-                console.log('нету');
-                $('html').animate({ scrollTop: yak - 80 }, { done: function done() {
-                        console.log('зашли');
-                        $(window).unbind('mousewheel DOMMouseScroll', lockScroll);
-                        $("body").css("overflow-y", "auto");
-                        $("body").css('overflow-x', 'hidden');
-                    }, duration: 1500 });
-                notScroll = true;
-            } else if (marker > yak - 200) {
-                console.log('exxx');
-                $("body").css('overflow-y', 'auto');
-                $("body").css('overflow-x', 'hidden');
-                $(window).unbind('mousewheel DOMMouseScroll', lockScroll);
-                notScroll = true;
-            }
-        });
-    }
-}
+// }
 
 //header style
-$(window).on("scroll", function () {
-    if ($(window).scrollTop() > 100) {
-        $(".header").addClass("active");
-    } else {
-        //remove the background property so it comes transparent again (defined in your css)
-        $(".header").removeClass("active");
-    }
-});
+        $(window).on("scroll", function () {
+            if ($(window).scrollTop() > 100) {
+                $(".header").addClass("active");
+            } else {
+                //remove the background property so it comes transparent again (defined in your css)
+                $(".header").removeClass("active");
+            }
+        });
 
 //scrollTop
-$(window).on('scroll', function () {
-    var btnTop = $('#btnTop');
-    if ($(window).scrollTop() > 3000) {
-        $(".go-to-top").addClass("active");
-    } else {
-        //remove the background property so it comes transparent again (defined in your css)
-        $(".go-to-top").removeClass("active");
-    }
-});
-$(window).on("scroll", function () {
-    if (come("#btnTop")) {
-        $(".go-to-top").removeClass("active");
-    }
-});
+        $(window).on('scroll', function () {
+            var btnTop = $('#btnTop');
+            if ($(window).scrollTop() > 3000) {
+                $(".go-to-top").addClass("active");
+            } else {
+                //remove the background property so it comes transparent again (defined in your css)
+                $(".go-to-top").removeClass("active");
+            }
+        });
+        $(window).on("scroll", function () {
+            if (come("#btnTop")) {
+                $(".go-to-top").removeClass("active");
+            }
+        });
 
-$('body').on('click', '.go-to-top', function () {
-    console.log('click');
-    $('html, body').animate({ scrollTop: 0 }, 'slow');
-});
+        $('body').on('click', '.go-to-top', function () {
+            $('html, body').animate({scrollTop: 0}, 'slow');
+        });
 
 //aniamate block onload
 //анимация появления текста
-$(document).ready(function () {
-    //    класс который анимирую в дереве html
-    $('.animate__A').addClass('animate_top');
-});
+        $(document).ready(function () {
+            //    класс который анимирую в дереве html
+            $('.animate__A').addClass('animate_top');
+        });
 
-AOS.init();
+        AOS.init();
+
 
 //animation Bubble
-        $('.process__box__content').find('.item').each(function (i) {
-            let item = $('.process__box__content').find('.item')
-            console.log(item)
-            if(item.length > 2){
-                $('<div class="buble-mini"  data-aos="buble1-mini" data-aos-anchor-placement="top-bottom" data-aos-delay="1000" data-aos-duration="1000"></div>').insertAfter($(item[0]));
-                $('<div class="buble-mini"  data-aos="buble1-mini" data-aos-anchor-placement="top-bottom" data-aos-delay="1000" data-aos-duration="1000"></div>').insertAfter($(item[1]));
-            }else if(item.length > 3){
-                $('<div class="buble-mini"  data-aos="buble1-mini" data-aos-anchor-placement="top-bottom" data-aos-delay="1000" data-aos-duration="1000"></div>').insertAfter($(item[0]));
-                $('<div class="buble-mini"  data-aos="buble1-mini" data-aos-anchor-placement="top-bottom" data-aos-delay="1000" data-aos-duration="1000"></div>').insertAfter($(item[1]));
-                $('<div class="buble-mini"  data-aos="buble1-mini" data-aos-anchor-placement="top-bottom" data-aos-delay="1000" data-aos-duration="1000"></div>').insertAfter($(item[2]));
-            }
-        });
+        var bubbleColorStyle = '';
+        if ( typeof bubbleColor !== 'undefined' && bubbleColor) {
+            bubbleColorStyle = 'style="background: ' + bubbleColor + '"';
+        }
+
+        let item = $('.process__box__content').find('.item');
+        let bubble = '<div class="buble-mini"  data-aos="buble1-mini" ' + bubbleColorStyle + 'data-aos-once="true" data-aos-anchor-placement="top-bottom" data-aos-delay="1000" data-aos-duration="1000"></div>'
+        for (var i = 0; i < item.length - 1; i++) {
+            $(bubble).insertAfter($(item[i]));
+            $(bubble).insertAfter($(item[i]));
+            $(bubble).insertAfter($(item[i]));
+        }
+
 
 //========================================================page NEW projets==========================
         $('.other-project__slider').slick({
@@ -372,39 +342,77 @@ AOS.init();
             centerMode: true,
             variableWidth: false,
             prevArrow: $('.other-project .arrow.prew'),
-            nextArrow: $('.other-project .arrow.next')
+            nextArrow: $('.other-project .arrow.next'),
+            responsive: [
+                {
+                    breakpoint: 1440,
+                    settings: {
+                        slidesToShow: 2
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+            ]
+
         });
 
 
 //        scroll custom ====================================================
 
-        $(window).on('scroll',function () {
+        // $(window).on('scroll', function () {
+        //     var headerHeight = $('.header').innerHeight();
+        //     var contentHeight = $('.projects__wrap').innerHeight() - 80;
+        //     var sidebarHeight = $('.projects__wrap__bar__fixed').height();
+        //     var sidebarBottomPos = contentHeight - sidebarHeight;
+        //     var trigger = $(window).scrollTop() - headerHeight;
+        //
+        //     if ($(window).scrollTop() >= headerHeight) {
+        //         $('.projects__wrap__bar__fixed').addClass('fixed');
+        //     } else {
+        //         $('.projects__wrap__bar__fixed').removeClass('fixed');
+        //     }
+        //
+        //     if (trigger >= sidebarBottomPos) {
+        //         $('.projects__wrap__bar__fixed').addClass('bottom');
+        //     } else {
+        //         $('.projects__wrap__bar__fixed').removeClass('bottom');
+        //     }
+        // });
 
-            var headerHeight = $('.header').innerHeight();
-            var contentHeight = $('.projects__wrap').innerHeight() - 80;
-            var sidebarHeight = $('.projects__wrap__bar__fixed').height();
-            var sidebarBottomPos = contentHeight - sidebarHeight;
-            var trigger = $(window).scrollTop() - headerHeight ;
+        function scroll__modal(){
+            $(window).on('scroll', function () {
+                var headerHeight = $('.scroll__before').innerHeight();
+                var contentHeight = $('.scroll__content').innerHeight() - 80;
+                var sidebarHeight = $('.fix__content').height();
+                var sidebarBottomPos = contentHeight - sidebarHeight;
+                var trigger = $(window).scrollTop() - headerHeight;
 
-            if ($(window).scrollTop() >= headerHeight) {
-                $('.projects__wrap__bar__fixed').addClass('fixed');
-            } else {
-                $('.projects__wrap__bar__fixed').removeClass('fixed');
-            }
+                if ($(window).scrollTop() >= headerHeight) {
+                    $('.fix__content').addClass('fixed');
+                } else {
+                    $('.fix__content').removeClass('fixed');
+                }
 
-            if (trigger >= sidebarBottomPos) {
-                $('.projects__wrap__bar__fixed').addClass('bottom');
-            } else {
-                $('.projects__wrap__bar__fixed').removeClass('bottom');
-            }
-        });
+                if (trigger >= sidebarBottomPos) {
+                    $('.fix__content').addClass('bottom');
+                } else {
+                    $('.fix__content').removeClass('bottom');
+                }
+            });
+        }
+        scroll__modal();
 //        scroll active==================================================================
 
         $(window).scroll(function () {
             var scrollDistance = $(window).scrollTop();
 
             $('.content-item').each(function (index) {
-                if ($(this).position().top - 140 <= scrollDistance) {
+                if ($(this).position().top - 240 <= scrollDistance) {
                     $('a[href*="#"]:not([href="#"]).active').removeClass('active');
                     $('a.link-project').eq(index).addClass('active');
                 }
@@ -414,41 +422,83 @@ AOS.init();
 
         //Scroll to anchor==================================================================================
 
-            $('a[href*="#"]:not([href="#"])').on('click',function () {
-                if (location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') && location.hostname === this.hostname) {
-                    var target = $(this.hash);
-                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                    if (target.length) {
-                        $('html, body').animate({
-                            scrollTop: target.offset().top - 80
-                        }, 500);
-                        return false;
+        $('a[href*="#"]:not([href="#"])').on('click', function () {
+            if (location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') && location.hostname === this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html, body').animate({
+                        scrollTop: target.offset().top - 160
+                    }, 500);
+                    return false;
+                }
+            }
+        });
+
+//lang =============================================
+
+        function langItem() {
+            var btnLang = $('.language__icon');
+            var sub = $('.sub__lang');
+            var imgBtn = $(btnLang).find('img').attr('src');
+            var imgItem = $('.sub__lang .item.active').find('img').attr('src');
+            $('.language__icon').find('img').attr('src', imgItem);
+
+            btnLang.on('click', function () {
+                if (!sub.hasClass('active')) {
+                    sub.addClass('active')
+                } else {
+                    sub.removeClass('active')
+                }
+            });
+            $(sub).find('.item').on('click', function () {
+                $(sub).find('.item').removeClass('active');
+                $(this).addClass('active');
+                sub.removeClass('active');
+                var imgItem = $('.sub__lang .item.active').find('img').attr('src');
+                $(this).parents('.language').find('.language__icon').find('img').attr('src', imgItem)
+            });
+
+
+            $('body').on('click', function (e) {
+                // событие клика по веб-документу
+                if (sub.hasClass('active')) {
+                    if (!btnLang.is(e.target) // если клик был не по нашему блоку
+                        && btnLang.has(e.target).length === 0) {
+                        // и не по его дочерним элементам
+                        sub.removeClass('active'); // скрываем его
                     }
                 }
             });
 
+        }
 
-function come(elem) {
-    var docViewTop = $(window).scrollTop(),
-        docViewBottom = docViewTop + $(window).height(),
-        elemTop = $(elem).offset(),
-        elemBottom = elemTop + $(elem).height();
+        langItem()
 
-    return elemBottom <= docViewBottom && elemTop >= docViewTop;
-}
+
+        function come(elem) {
+            var docViewTop = $(window).scrollTop(),
+                docViewBottom = docViewTop + $(window).height(),
+                elemTop = $(elem).offset(),
+                elemBottom = elemTop + $(elem).height();
+
+            return elemBottom <= docViewBottom && elemTop >= docViewTop;
+        }
+
 // var counter = 0;
 // $(window).on("scroll", function() {
 //     if (come(".l-title:eq("+counter+")")) {
-//         console.log('window');
+//
 //
 //         $(".animate__B:eq("+counter+")").addClass('animate_top')
-//         console.log($(".animate__B")[counter]);
+//
 //         counter++
 //     }
 // })
 
-/***/ })
-/******/ ]);
+        /***/
+    })
+    /******/]);
 //# sourceMappingURL=main.js.map
 
 
