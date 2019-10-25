@@ -2229,6 +2229,7 @@
 .modal_bar {
     min-height: 404px;
     display: flex;
+    max-width: 364px;
 }
 
 .modal_bar.success {
