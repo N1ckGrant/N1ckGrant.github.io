@@ -2259,6 +2259,7 @@
     margin-bottom: 24px;
 }
 
+
 .modal_bar-success .caption {
     font-style: normal;
     font-weight: 500;
@@ -2282,5 +2283,48 @@
     align-items: center;
     text-align: center;
     color: #4F4F4F;
+}
 
+.implementation__phone-success {
+    display: none;
+    flex: 1;
+    align-self: center;
+}
+.implementation__phone.success .implementation__phone-form{
+    display: none;
+}
+.implementation__phone.success .implementation__phone-success{
+    display: block;
+}
+.implementation__phone-success .icon {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: 24px;
+}
+.implementation__phone-success .caption {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #282828;
+    margin-top: 0px;
+    margin-bottom: 24px;
+}
+
+.implementation__phone-success .desc {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #4F4F4F;
+    justify-content: center;
 }

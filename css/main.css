@@ -763,6 +763,7 @@ body::-webkit-scrollbar-thumb {
     transition: 0.3s;
     transform: translateX(0px);
     padding-left: 30px;
+    font-size: 14px;
     z-index: 99; }
     .site__map a:hover {
       background-color: white;
