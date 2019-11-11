@@ -960,7 +960,7 @@ body::-webkit-scrollbar-thumb {
   min-width: 320px; }
 
 .advantage {
-  margin-bottom: 32px; }
+  margin-bottom: 0px; }
   .advantage__head {
     display: flex;
     font-size: 18px;
