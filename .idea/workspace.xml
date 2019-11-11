@@ -1,23 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="87e94da4-090c-4431-8db9-d19267841696" name="Default Changelist" comment="">
+    <list default="true" id="87e94da4-090c-4431-8db9-d19267841696" name="Default Changelist" comment="редизайн">
+      <change afterPath="$PROJECT_DIR$/service__main.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RU_UI_UX.html" beforeDir="false" afterPath="$PROJECT_DIR$/RU_UI_UX.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RU_РАЗРАБОТКА_CRM.html" beforeDir="false" afterPath="$PROJECT_DIR$/RU_РАЗРАБОТКА_CRM.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RU_РАЗРАБОТКА_ДИЗАЙНА_САЙТА.html" beforeDir="false" afterPath="$PROJECT_DIR$/RU_РАЗРАБОТКА_ДИЗАЙНА_САЙТА.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RU_РАЗРАБОТКА_ИНТЕРНЕТ_МАГАЗИНОВ.html" beforeDir="false" afterPath="$PROJECT_DIR$/RU_РАЗРАБОТКА_ИНТЕРНЕТ_МАГАЗИНОВ.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RU_РАЗРАБОТКА_МАРКЕТПЛЕЙСА.html" beforeDir="false" afterPath="$PROJECT_DIR$/RU_РАЗРАБОТКА_МАРКЕТПЛЕЙСА.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RU_РАЗРАБОТКА_МЕД_САЙТОВ.html" beforeDir="false" afterPath="$PROJECT_DIR$/RU_РАЗРАБОТКА_МЕД_САЙТОВ.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RU_РАЗРАБОТКА_САЙТОВ.html" beforeDir="false" afterPath="$PROJECT_DIR$/RU_РАЗРАБОТКА_САЙТОВ.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RU_УСЛУГИ_DEV_OPS.html" beforeDir="false" afterPath="$PROJECT_DIR$/RU_УСЛУГИ_DEV_OPS.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/project-new.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/project-new.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e-market.html" beforeDir="false" afterPath="$PROJECT_DIR$/e-market.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medical-site-en.html" beforeDir="false" afterPath="$PROJECT_DIR$/medical-site-en.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medical-site.html" beforeDir="false" afterPath="$PROJECT_DIR$/medical-site.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-CRM.html" beforeDir="false" afterPath="$PROJECT_DIR$/service-CRM.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/turnkey-website.html" beforeDir="false" afterPath="$PROJECT_DIR$/turnkey-website.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -78,10 +64,10 @@
     <session id="199905928">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="13" />
+          <entry key="project.closed" value="16" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="9" />
-          <entry key="project.open.time.10" value="2" />
+          <entry key="project.open.time.1" value="11" />
+          <entry key="project.open.time.10" value="3" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.12" value="2" />
           <entry key="project.open.time.13" value="1" />
@@ -90,22 +76,29 @@
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="22" />
+          <entry key="project.opened" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="9" />
-          <entry key="HTML" value="32" />
+          <entry key="CSS" value="13" />
+          <entry key="HTML" value="65" />
           <entry key="JavaScript" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="6839" />
-          <entry key="HTML" value="3384" />
+          <entry key="CSS" value="9838" />
+          <entry key="HTML" value="4493" />
           <entry key="JavaScript" value="739" />
-          <entry key="PLAIN_TEXT" value="130" />
+          <entry key="PLAIN_TEXT" value="146" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages">
+        <counts>
+          <entry key="git.branch.checkout.local" value="2" />
+          <entry key="git.branch.create.new" value="1" />
+          <entry key="git.branch.delete.local" value="1" />
         </counts>
       </usages-collector>
     </session>
@@ -113,72 +106,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/turnkey-website.html">
+        <entry file="file://$PROJECT_DIR$/RU_РАЗРАБОТКА_CRM.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8262">
-              <caret line="496" column="22" selection-start-line="464" selection-start-column="16" selection-end-line="496" selection-end-column="22" />
-              <folding>
-                <element signature="n#svg#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RU_РАЗРАБОТКА_МАРКЕТПЛЕЙСА.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="539">
-              <caret line="446" column="53" selection-start-line="446" selection-start-column="53" selection-end-line="446" selection-end-column="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/project-new.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-260">
-              <caret line="2287" column="32" lean-forward="true" selection-start-line="2287" selection-start-column="32" selection-end-line="2287" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="1132" column="24" lean-forward="true" selection-start-line="1132" selection-start-column="24" selection-end-line="1132" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RU_РАЗРАБОТКА_ДИЗАЙНА_САЙТА.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="376" column="34" lean-forward="true" selection-start-line="366" selection-start-column="28" selection-end-line="376" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service-CRM.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="562" column="10" lean-forward="true" selection-start-line="531" selection-start-column="4" selection-end-line="562" selection-end-column="10" />
-              <folding>
-                <element signature="n#head#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-              </folding>
+            <state relative-caret-position="13617">
+              <caret line="801" column="10" selection-start-line="801" selection-start-column="10" selection-end-line="801" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/medical-site-en.html">
+        <entry file="file://$PROJECT_DIR$/css/project-new.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="465" column="56" lean-forward="true" selection-start-line="465" selection-start-column="56" selection-end-line="465" selection-end-column="56" />
+            <state relative-caret-position="1217">
+              <caret line="2323" column="22" lean-forward="true" selection-start-line="2323" selection-start-column="22" selection-end-line="2323" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project-salvi.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3366">
+              <caret line="198" column="39" selection-start-line="198" selection-start-column="36" selection-end-line="198" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -194,19 +143,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Хотите заказать разработку сайта?</find>
-      <find>modal_bar</find>
-      <find>img</find>
-      <find>types__article__item</find>
-      <find>hero</find>
-      <find>ste</find>
-      <find>&lt;div class=&quot;awards__img&quot;&gt;</find>
-      <find>services-page__item__title</find>
-      <find>awards__img</find>
-      <find>Расширяемые</find>
-      <find>Advantages of working with us</find>
-      <find>floa</find>
-      <find>Want to order Android</find>
       <find>Want to order Android application development</find>
       <find>Кто задействован в проекте</find>
       <find>Тестируем И Исправляем Ошибки</find>
@@ -219,19 +155,39 @@
       <find>UX-дизайн</find>
       <find>.container-xs__floating</find>
       <find>\&lt;div class\=\&quot;modal_bar fix__content\&quot;\&gt;\n                \&lt;div class\=\&quot;modal_bar\-form\&quot;\&gt;\n                    \&lt;div class\=\&quot;caption\&quot;\&gt;\n                        Хотите заказать разработку андроид\-приложения\?\n                    \&lt;\/div\&gt;\n                    \&lt;div class\=\&quot;title\&quot;\&gt;\n                        Оставьте свой номер телефона и мы свяжемся с вами для уточнения вопросов\n                    \&lt;\/div\&gt;\n                    \&lt;input type\=\&quot;phone\&quot;\&gt;\n                    \&lt;button class\=\&quot;btn__primary\&quot;\&gt;Оставить заявку\&lt;\/button\&gt;\n                \&lt;\/div\&gt;\n                \&lt;div class\=\&quot;modal_bar\-success\&quot;\&gt;\n                    \&lt;div class\=\&quot;icon\&quot;\&gt;\n                        \&lt;svg width\=\&quot;80\&quot; height\=\&quot;80\&quot; viewBox\=\&quot;0 0 80 80\&quot; fill\=\&quot;none\&quot;\n                             xmlns\=\&quot;http\:\/\/www\.w3\.org\/2000\/svg\&quot;\&gt;\n                            \&lt;mask id\=\&quot;mask0\&quot; mask\-type\=\&quot;alpha\&quot; maskUnits\=\&quot;userSpaceOnUse\&quot; x\=\&quot;11\&quot; y\=\&quot;18\&quot; width\=\&quot;60\&quot;\n                                  height\=\&quot;46\&quot;\&gt;\n                                \&lt;path d\=\&quot;M30\.0005 53\.9L16\.1005 40L11\.3672 44\.7L30\.0005 63\.3333L70\.0005 23\.3333L65\.3005 18\.6333L30\.0005 53\.9Z\&quot;\n                                      fill\=\&quot;white\&quot;\/\&gt;\n                            \&lt;\/mask\&gt;\n                            \&lt;g mask\=\&quot;url\(\#mask0\)\&quot;\&gt;\n                                \&lt;path fill\-rule\=\&quot;evenodd\&quot; clip\-rule\=\&quot;evenodd\&quot; d\=\&quot;M0 0H80V80H0V0Z\&quot; fill\=\&quot;\#00C853\&quot;\/\&gt;\n                            \&lt;\/g\&gt;\n                        \&lt;\/svg\&gt;\n                    \&lt;\/div\&gt;\n                    \&lt;div class\=\&quot;caption\&quot;\&gt;\n                        Ваша заявка принята\!\n                    \&lt;\/div\&gt;\n                    \&lt;div class\=\&quot;desc\&quot;\&gt;\n                        Мы свяжемся с вами в ближайшее время\.\n                    \&lt;\/div\&gt;\n                \&lt;\/div\&gt;\n            \&lt;\/div\&gt;</find>
-      <find>implementation__phone</find>
       <find>&lt;div class=&quot;implementation implementation__phone&quot;&gt;</find>
-      <find>&lt;div class=&quot;implementation implementation__phone&quot;&gt;</find>
-      <find>Хотите заказать разработку андроид-приложения?</find>
       <find>\&lt;div class\=\&quot;implementation implementation__phone\&quot;\&gt;\n        \&lt;div class\=\&quot;implementation__desc\&quot;\&gt;Хотите заказать разработку сайта\?\&lt;\/div\&gt;\n        \&lt;div class\=\&quot;implementation__text\&quot;\&gt;Оставьте свой номер телефона и мы свяжемся с вами для \&lt;br\&gt; уточнения вопросов\n        \&lt;\/div\&gt;\n        \&lt;div class\=\&quot;btn\&quot;\&gt;\n            \&lt;input type\=\&quot;text\&quot; class\=\&quot;input phone\-mask\&quot;\&gt;\n            \&lt;div class\=\&quot;btn__primary\&quot;\&gt;Оставить заявку\&lt;\/div\&gt;\n        \&lt;\/div\&gt;\n    \&lt;\/div\&gt;</find>
+      <find>Хотите заказать разработку андроид-приложения?</find>
+      <find>Заказать</find>
+      <find>\&lt;div class\=\&quot;container\-xs__floating\&quot;\&gt;\n                \&lt;div class\=\&quot;modal_bar fix__content\&quot;\&gt;\n                    \&lt;div class\=\&quot;modal_bar\-form\&quot;\&gt;\n                        \&lt;div class\=\&quot;caption\&quot;\&gt;\n                            Хотите заказать разработку андроид\-приложения\?\n                        \&lt;\/div\&gt;\n                        \&lt;div class\=\&quot;title\&quot;\&gt;\n                            Оставьте свой номер телефона и мы свяжемся с вами для уточнения вопросов\n                        \&lt;\/div\&gt;\n                        \&lt;input type\=\&quot;phone\&quot;\&gt;\n                        \&lt;button class\=\&quot;btn__primary\&quot;\&gt;Оставить заявку\&lt;\/button\&gt;\n                    \&lt;\/div\&gt;\n                    \&lt;div class\=\&quot;modal_bar\-success\&quot;\&gt;\n                        \&lt;div class\=\&quot;icon\&quot;\&gt;\n                            \&lt;svg width\=\&quot;80\&quot; height\=\&quot;80\&quot; viewBox\=\&quot;0 0 80 80\&quot; fill\=\&quot;none\&quot;\n                                 xmlns\=\&quot;http\:\/\/www\.w3\.org\/2000\/svg\&quot;\&gt;\n                                \&lt;mask id\=\&quot;mask0\&quot; mask\-type\=\&quot;alpha\&quot; maskUnits\=\&quot;userSpaceOnUse\&quot; x\=\&quot;11\&quot; y\=\&quot;18\&quot; width\=\&quot;60\&quot;\n                                      height\=\&quot;46\&quot;\&gt;\n                                    \&lt;path d\=\&quot;M30\.0005 53\.9L16\.1005 40L11\.3672 44\.7L30\.0005 63\.3333L70\.0005 23\.3333L65\.3005 18\.6333L30\.0005 53\.9Z\&quot;\n                                          fill\=\&quot;white\&quot;\/\&gt;\n                                \&lt;\/mask\&gt;\n                                \&lt;g mask\=\&quot;url\(\#mask0\)\&quot;\&gt;\n                                    \&lt;path fill\-rule\=\&quot;evenodd\&quot; clip\-rule\=\&quot;evenodd\&quot; d\=\&quot;M0 0H80V80H0V0Z\&quot; fill\=\&quot;\#00C853\&quot;\/\&gt;\n                                \&lt;\/g\&gt;\n                            \&lt;\/svg\&gt;\n                        \&lt;\/div\&gt;\n                        \&lt;div class\=\&quot;caption\&quot;\&gt;\n                            Ваша заявка принята\!\n                        \&lt;\/div\&gt;\n                        \&lt;div class\=\&quot;desc\&quot;\&gt;\n                            Мы свяжемся с вами в ближайшее время\.\n                        \&lt;\/div\&gt;\n                    \&lt;\/div\&gt;\n                \&lt;\/div\&gt;\n            \&lt;\/div\&gt;</find>
+      <find>advantage__head</find>
+      <find>\&lt;div class\=\&quot;implementation implementation__phone\&quot;\&gt;\n        \&lt;div class\=\&quot;implementation__phone\-form\&quot;\&gt;\n            \&lt;div class\=\&quot;implementation__desc\&quot;\&gt;Хотите заказать разработку сайта\?\&lt;\/div\&gt;\n            \&lt;div class\=\&quot;implementation__text\&quot;\&gt;Оставьте свой номер телефона и мы свяжемся с вами для \&lt;br\&gt; уточнения\n                вопросов\n            \&lt;\/div\&gt;\n            \&lt;div class\=\&quot;btn\&quot;\&gt;\&lt;input type\=\&quot;text\&quot; class\=\&quot;input phone\-mask\&quot;\&gt;\n                \&lt;div class\=\&quot;btn__primary\&quot;\&gt;Оставить заявку\&lt;\/div\&gt;\n            \&lt;\/div\&gt;\n        \&lt;\/div\&gt;\n        \&lt;div class\=\&quot;implementation__phone\-success\&quot;\&gt;\n            \&lt;div class\=\&quot;icon\&quot;\&gt;\n                \&lt;svg width\=\&quot;80\&quot; height\=\&quot;80\&quot; viewBox\=\&quot;0 0 80 80\&quot; fill\=\&quot;none\&quot; xmlns\=\&quot;http\:\/\/www\.w3\.org\/2000\/svg\&quot;\&gt;\n                    \&lt;mask id\=\&quot;mask01\&quot; mask\-type\=\&quot;alpha\&quot; maskUnits\=\&quot;userSpaceOnUse\&quot; x\=\&quot;11\&quot; y\=\&quot;18\&quot; width\=\&quot;60\&quot; height\=\&quot;46\&quot;\&gt;\n                        \&lt;path d\=\&quot;M30\.0005 53\.9L16\.1005 40L11\.3672 44\.7L30\.0005 63\.3333L70\.0005 23\.3333L65\.3005 18\.6333L30\.0005 53\.9Z\&quot;\n                              fill\=\&quot;white\&quot;\/\&gt;\n                    \&lt;\/mask\&gt;\n                    \&lt;g mask\=\&quot;url\(\#mask01\)\&quot;\&gt;\n                        \&lt;path fill\-rule\=\&quot;evenodd\&quot; clip\-rule\=\&quot;evenodd\&quot; d\=\&quot;M0 0H80V80H0V0Z\&quot; fill\=\&quot;\#00C853\&quot;\/\&gt;\n                    \&lt;\/g\&gt;\n                \&lt;\/svg\&gt;\n            \&lt;\/div\&gt;\n            \&lt;div class\=\&quot;caption\&quot;\&gt; Ваша заявка принята\!\&lt;\/div\&gt;\n            \&lt;div class\=\&quot;desc\&quot;\&gt; Мы свяжемся с вами в ближайшее время\.\&lt;\/div\&gt;\n        \&lt;\/div\&gt;\n    \&lt;\/div\&gt;</find>
+      <find>article__modal</find>
+      <find>phone</find>
+      <find>implementation__phone</find>
+      <find>box-bg</find>
+      <find>Хотите заказать разработку сайта?</find>
+      <find>implementation</find>
+      <find>advantage</find>
+      <find>buble-</find>
+      <find>awards__img-mobile</find>
+      <find>phoneForm</find>
+      <find>container-full</find>
     </findStrings>
     <replaceStrings>
       <replace />
       <replace>&lt;div class=&quot;implementation implementation__phone&quot;&gt;         &lt;div class=&quot;implementation__phone-form&quot;&gt;             &lt;div class=&quot;implementation__desc&quot;&gt;Хотите заказать разработку сайта?&lt;/div&gt;             &lt;div class=&quot;implementation__text&quot;&gt;Оставьте свой номер телефона и мы свяжемся с вами для &lt;br&gt; уточнения вопросов             &lt;/div&gt;             &lt;div class=&quot;btn&quot;&gt;                 &lt;input type=&quot;text&quot; class=&quot;input phone-mask&quot;&gt;                 &lt;div class=&quot;btn__primary&quot;&gt;Оставить заявку&lt;/div&gt;             &lt;/div&gt;         &lt;/div&gt;         &lt;div class=&quot;implementation__phone-success&quot;&gt;             &lt;div class=&quot;icon&quot;&gt;                 &lt;svg width=&quot;80&quot; height=&quot;80&quot; viewBox=&quot;0 0 80 80&quot; fill=&quot;none&quot;                      xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;                     &lt;mask id=&quot;mask01&quot; mask-type=&quot;alpha&quot; maskUnits=&quot;userSpaceOnUse&quot; x=&quot;11&quot; y=&quot;18&quot; width=&quot;60&quot;                           height=&quot;46&quot;&gt;                         &lt;path d=&quot;M30.0005 53.9L16.1005 40L11.3672 44.7L30.0005 63.3333L70.0005 23.3333L65.3005 18.6333L30.0005 53.9Z&quot;                               fill=&quot;white&quot;/&gt;                     &lt;/mask&gt;                     &lt;g mask=&quot;url(#mask01)&quot;&gt;                         &lt;path fill-rule=&quot;evenodd&quot; clip-rule=&quot;evenodd&quot; d=&quot;M0 0H80V80H0V0Z&quot; fill=&quot;#00C853&quot;/&gt;                     &lt;/g&gt;                 &lt;/svg&gt;             &lt;/div&gt;             &lt;div class=&quot;caption&quot;&gt;                 Ваша заявка принята!             &lt;/div&gt;             &lt;div class=&quot;desc&quot;&gt;                 Мы свяжемся с вами в ближайшее время.             &lt;/div&gt;         &lt;/div&gt;     &lt;/div&gt;</replace>
+      <replace>&lt;div class=&quot;container-xs__floating&quot;&gt;                 &lt;div class=&quot;fix__content&quot;&gt;                     &lt;div class=&quot;modal_bar &quot;&gt;                         &lt;div class=&quot;modal_bar-form&quot;&gt;                             &lt;div class=&quot;caption&quot;&gt;                                 Хотите заказать разработку андроид-приложения?                             &lt;/div&gt;                             &lt;div class=&quot;title&quot;&gt;                                 Оставьте свой номер телефона и мы свяжемся с вами для уточнения вопросов                             &lt;/div&gt;                             &lt;input type=&quot;phone&quot;&gt;                             &lt;button class=&quot;btn__primary&quot;&gt;Оставить заявку&lt;/button&gt;                         &lt;/div&gt;                         &lt;div class=&quot;modal_bar-success&quot;&gt;                             &lt;div class=&quot;icon&quot;&gt;                                 &lt;svg width=&quot;80&quot; height=&quot;80&quot; viewBox=&quot;0 0 80 80&quot; fill=&quot;none&quot;                                      xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;                                     &lt;mask id=&quot;mask0&quot; mask-type=&quot;alpha&quot; maskUnits=&quot;userSpaceOnUse&quot; x=&quot;11&quot; y=&quot;18&quot;                                           width=&quot;60&quot;                                           height=&quot;46&quot;&gt;                                         &lt;path d=&quot;M30.0005 53.9L16.1005 40L11.3672 44.7L30.0005 63.3333L70.0005 23.3333L65.3005 18.6333L30.0005 53.9Z&quot;                                               fill=&quot;white&quot;/&gt;                                     &lt;/mask&gt;                                     &lt;g mask=&quot;url(#mask0)&quot;&gt;                                         &lt;path fill-rule=&quot;evenodd&quot; clip-rule=&quot;evenodd&quot; d=&quot;M0 0H80V80H0V0Z&quot;                                               fill=&quot;#00C853&quot;/&gt;                                     &lt;/g&gt;                                 &lt;/svg&gt;                             &lt;/div&gt;                             &lt;div class=&quot;caption&quot;&gt;                                 Ваша заявка принята!                             &lt;/div&gt;                             &lt;div class=&quot;desc&quot;&gt;                                 Мы свяжемся с вами в ближайшее время.                             &lt;/div&gt;                         &lt;/div&gt;                     &lt;/div&gt;                     &lt;div class=&quot;article__modal&quot;&gt;                         &lt;div class=&quot;article__modal__head&quot;&gt;                             &lt;div class=&quot;caption&quot;&gt;                                 Статьи по теме                             &lt;/div&gt;                         &lt;/div&gt;                         &lt;div class=&quot;article__modal__body&quot;&gt;                             &lt;div class=&quot;item&quot;&gt;                                 &lt;div class=&quot;item__img&quot;&gt;                                     &lt;img src=&quot;img/article__modal/1.jpg&quot; alt=&quot;&quot;&gt;                                 &lt;/div&gt;                                 &lt;div class=&quot;item__body&quot;&gt;                                     &lt;div class=&quot;item__body__desc&quot;&gt;                                         Топ 5 приложений Октября для досуга всей семьиоп 5 приложений Октября для досуга                                         всей семьи                                     &lt;/div&gt;                                     &lt;div class=&quot;item__body__footer&quot;&gt;                                         &lt;span class=&quot;date&quot;&gt;19 Мая 2019&lt;/span&gt;                                         &lt;span class=&quot;view&quot;&gt;666 Просмотров&lt;/span&gt;                                     &lt;/div&gt;                                 &lt;/div&gt;                             &lt;/div&gt;                             &lt;div class=&quot;item&quot;&gt;                                 &lt;div class=&quot;item__img&quot;&gt;                                     &lt;img src=&quot;img/article__modal/1.jpg&quot; alt=&quot;&quot;&gt;                                 &lt;/div&gt;                                 &lt;div class=&quot;item__body&quot;&gt;                                     &lt;div class=&quot;item__body__desc&quot;&gt;                                         Топ 5 приложений Октября для досуга всей семьи                                     &lt;/div&gt;                                     &lt;div class=&quot;item__body__footer&quot;&gt;                                         &lt;span class=&quot;date&quot;&gt;19 Мая 2019&lt;/span&gt;                                         &lt;span class=&quot;view&quot;&gt;666 Просмотров&lt;/span&gt;                                     &lt;/div&gt;                                 &lt;/div&gt;                             &lt;/div&gt;                             &lt;div class=&quot;item&quot;&gt;                                 &lt;div class=&quot;item__img&quot;&gt;                                     &lt;img src=&quot;img/article__modal/1.jpg&quot; alt=&quot;&quot;&gt;                                 &lt;/div&gt;                                 &lt;div class=&quot;item__body&quot;&gt;                                     &lt;div class=&quot;item__body__desc&quot;&gt;                                         Топ 5 приложений Октября для досуга всей семьи                                     &lt;/div&gt;                                     &lt;div class=&quot;item__body__footer&quot;&gt;                                         &lt;span class=&quot;date&quot;&gt;19 Мая 2019&lt;/span&gt;                                         &lt;span class=&quot;view&quot;&gt;666 Просмотров&lt;/span&gt;                                     &lt;/div&gt;                                 &lt;/div&gt;                             &lt;/div&gt;                         &lt;/div&gt;                         &lt;div class=&quot;article__modal__footer&quot;&gt;                             &lt;a href=&quot;#&quot; class=&quot;btn__article&quot;&gt;                                 Все статьи                             &lt;/a&gt;                         &lt;/div&gt;                     &lt;/div&gt;                 &lt;/div&gt;             &lt;/div&gt;</replace>
+      <replace>&lt;div class=&quot;implementation implementation__phone&quot;&gt;             &lt;div class=&quot;implementation__box&quot;&gt;                 &lt;div class=&quot;implementation__phone-form&quot;&gt;                     &lt;div class=&quot;implementation__desc&quot;&gt;Хотите заказать разработку сайта?&lt;/div&gt;                     &lt;div class=&quot;implementation__text&quot;&gt;Оставьте свой номер телефона и мы свяжемся с вами для &lt;br&gt; уточнения                         вопросов                     &lt;/div&gt;                     &lt;div class=&quot;btn&quot;&gt;&lt;input type=&quot;text&quot; class=&quot;input phone-mask&quot;&gt;                         &lt;div class=&quot;btn__primary&quot;&gt;Оставить заявку&lt;/div&gt;                     &lt;/div&gt;                 &lt;/div&gt;                 &lt;div class=&quot;implementation__phone-success&quot;&gt;                     &lt;div class=&quot;icon&quot;&gt;                         &lt;svg width=&quot;80&quot; height=&quot;80&quot; viewBox=&quot;0 0 80 80&quot; fill=&quot;none&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;                             &lt;mask id=&quot;mask01&quot; mask-type=&quot;alpha&quot; maskUnits=&quot;userSpaceOnUse&quot; x=&quot;11&quot; y=&quot;18&quot; width=&quot;60&quot; height=&quot;46&quot;&gt;                                 &lt;path d=&quot;M30.0005 53.9L16.1005 40L11.3672 44.7L30.0005 63.3333L70.0005 23.3333L65.3005 18.6333L30.0005 53.9Z&quot;                                       fill=&quot;white&quot;/&gt;                             &lt;/mask&gt;                             &lt;g mask=&quot;url(#mask01)&quot;&gt;                                 &lt;path fill-rule=&quot;evenodd&quot; clip-rule=&quot;evenodd&quot; d=&quot;M0 0H80V80H0V0Z&quot; fill=&quot;#00C853&quot;/&gt;                             &lt;/g&gt;                         &lt;/svg&gt;                     &lt;/div&gt;                     &lt;div class=&quot;caption&quot;&gt; Ваша заявка принята!&lt;/div&gt;                     &lt;div class=&quot;desc&quot;&gt; Мы свяжемся с вами в ближайшее время.&lt;/div&gt;                 &lt;/div&gt;             &lt;/div&gt;             &lt;div class=&quot;article__modal service__mini&quot;&gt;                 &lt;div class=&quot;article__modal__head&quot;&gt;                     &lt;div class=&quot;caption&quot;&gt;                         Статьи по теме                     &lt;/div&gt;                 &lt;/div&gt;                 &lt;div class=&quot;article__modal__body&quot;&gt;                     &lt;div class=&quot;item&quot;&gt;                         &lt;div class=&quot;item__img&quot;&gt;                             &lt;img src=&quot;img/article__modal/1.jpg&quot; alt=&quot;&quot;&gt;                         &lt;/div&gt;                         &lt;div class=&quot;item__body&quot;&gt;                             &lt;div class=&quot;item__body__desc&quot;&gt;                                 Apps development                             &lt;/div&gt;                             &lt;div class=&quot;item__body__footer&quot;&gt;                                 &lt;span class=&quot;desc&quot;&gt;We use modern programming languages such as Swift and Objective-C and proven technologies.&lt;/span&gt;                             &lt;/div&gt;                         &lt;/div&gt;                     &lt;/div&gt;                     &lt;div class=&quot;item&quot;&gt;                         &lt;div class=&quot;item__img&quot;&gt;                             &lt;img src=&quot;img/article__modal/1.jpg&quot; alt=&quot;&quot;&gt;                         &lt;/div&gt;                         &lt;div class=&quot;item__body&quot;&gt;                             &lt;div class=&quot;item__body__desc&quot;&gt;                                 Software Development                             &lt;/div&gt;                             &lt;div class=&quot;item__body__footer&quot;&gt;                                 &lt;span class=&quot;desc&quot;&gt;We use modern programming languages such as Swift and Objective-C and proven technologies.&lt;/span&gt;                             &lt;/div&gt;                         &lt;/div&gt;                     &lt;/div&gt;                     &lt;div class=&quot;item&quot;&gt;                         &lt;div class=&quot;item__img&quot;&gt;                             &lt;img src=&quot;img/article__modal/1.jpg&quot; alt=&quot;&quot;&gt;                         &lt;/div&gt;                         &lt;div class=&quot;item__body&quot;&gt;                             &lt;div class=&quot;item__body__desc&quot;&gt;                                 Топ 5 приложений Октября для досуга всей семьи                             &lt;/div&gt;                             &lt;div class=&quot;item__body__footer&quot;&gt;                                 &lt;span class=&quot;desc&quot;&gt;We use modern programming languages such as Swift and Objective-C and proven technologies.&lt;/span&gt;                             &lt;/div&gt;                         &lt;/div&gt;                     &lt;/div&gt;                 &lt;/div&gt;                 &lt;div class=&quot;article__modal__footer&quot;&gt;                     &lt;a href=&quot;#&quot; class=&quot;btn__article&quot;&gt;                         Все проекты                     &lt;/a&gt;                 &lt;/div&gt;             &lt;/div&gt;          &lt;/div&gt;</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="redesign" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -239,24 +195,32 @@
         <option value="$PROJECT_DIR$/ico/manifest.json" />
         <option value="$PROJECT_DIR$/contact.html" />
         <option value="$PROJECT_DIR$/about.html" />
-        <option value="$PROJECT_DIR$/project-salvi.html" />
         <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/projects__new.html" />
         <option value="$PROJECT_DIR$/services.html" />
         <option value="$PROJECT_DIR$/service__main.html" />
         <option value="$PROJECT_DIR$/turnkey website.html" />
         <option value="$PROJECT_DIR$/turnkey website-en.html" />
-        <option value="$PROJECT_DIR$/e-market.html" />
-        <option value="$PROJECT_DIR$/e-market-en.html" />
-        <option value="$PROJECT_DIR$/service.html" />
-        <option value="$PROJECT_DIR$/medical-site.html" />
-        <option value="$PROJECT_DIR$/turnkey-website.html" />
-        <option value="$PROJECT_DIR$/RU_РАЗРАБОТКА_МАРКЕТПЛЕЙСА.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/service.html" />
         <option value="$PROJECT_DIR$/service-CRM.html" />
-        <option value="$PROJECT_DIR$/css/project-new.css" />
+        <option value="$PROJECT_DIR$/e-market-en.html" />
+        <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/RU_РАЗРАБОТКА_ДИЗАЙНА_САЙТА.html" />
+        <option value="$PROJECT_DIR$/e-market.html" />
+        <option value="$PROJECT_DIR$/medical-site.html" />
         <option value="$PROJECT_DIR$/medical-site-en.html" />
+        <option value="$PROJECT_DIR$/RU_UI_UX.html" />
+        <option value="$PROJECT_DIR$/RU_РАЗРАБОТКА_ИНТЕРНЕТ_МАГАЗИНОВ.html" />
+        <option value="$PROJECT_DIR$/RU_РАЗРАБОТКА_МАРКЕТПЛЕЙСА.html" />
+        <option value="$PROJECT_DIR$/RU_РАЗРАБОТКА_МЕД_САЙТОВ.html" />
+        <option value="$PROJECT_DIR$/RU_РАЗРАБОТКА_САЙТОВ.html" />
+        <option value="$PROJECT_DIR$/RU_УСЛУГИ_DEV_OPS.html" />
+        <option value="$PROJECT_DIR$/turnkey-website.html" />
+        <option value="$PROJECT_DIR$/turnkey-website-en.html" />
+        <option value="$PROJECT_DIR$/project-salvi.html" />
+        <option value="$PROJECT_DIR$/RU_РАЗРАБОТКА_CRM.html" />
+        <option value="$PROJECT_DIR$/css/project-new.css" />
       </list>
     </option>
   </component>
@@ -272,10 +236,10 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-31" />
-    <option name="y" value="-14" />
-    <option name="width" value="1934" />
-    <option name="height" value="1047" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -365,7 +329,10 @@
       <workItem from="1571663978633" duration="26000" />
       <workItem from="1571927313466" duration="2235000" />
       <workItem from="1571979580513" duration="4729000" />
-      <workItem from="1572010373169" duration="1888000" />
+      <workItem from="1572010373169" duration="2147000" />
+      <workItem from="1572245179133" duration="604000" />
+      <workItem from="1573117562585" duration="27028000" />
+      <workItem from="1573465542097" duration="8259000" />
     </task>
     <task id="LOCAL-00001" summary="fix">
       <created>1550489124447</created>
@@ -598,11 +565,39 @@
       <option name="project" value="LOCAL" />
       <updated>1571990083485</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="новые страницы Дима">
+      <created>1572012429396</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1572012429396</updated>
+    </task>
+    <task id="LOCAL-00035" summary="редизайн">
+      <created>1573473771977</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1573473771977</updated>
+    </task>
+    <task id="LOCAL-00036" summary="редизайн">
+      <created>1573473817663</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1573473817663</updated>
+    </task>
+    <task id="LOCAL-00037" summary="редизайн">
+      <created>1573473843682</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1573473843682</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="156238000" />
+    <option name="totallyTimeSpent" value="192388000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -617,7 +612,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2016" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.208" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -629,8 +624,8 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32968238" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" visible="true" weight="0.3264642" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32968238" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3264642" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3286334" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -653,7 +648,8 @@
     <MESSAGE value="новые страницы - CRM - 2 блока(css вконце файла project-new.css)" />
     <MESSAGE value="форма тел" />
     <MESSAGE value="новые страницы Дима" />
-    <option name="LAST_COMMIT_MESSAGE" value="новые страницы Дима" />
+    <MESSAGE value="редизайн" />
+    <option name="LAST_COMMIT_MESSAGE" value="редизайн" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/ico/browserconfig.xml">
@@ -697,13 +693,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project-salvi.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4641">
-          <caret line="316" column="47" selection-start-line="316" selection-start-column="36" selection-end-line="316" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/projects__new.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -733,114 +722,143 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5049">
-          <caret line="297" column="14" selection-start-line="297" selection-start-column="14" selection-end-line="297" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/turnkey-website-en.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9350">
-          <caret line="550" column="48" lean-forward="true" selection-start-line="550" selection-start-column="48" selection-end-line="550" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/e-market.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2805">
-          <caret line="185" column="98" selection-start-line="185" selection-start-column="98" selection-end-line="185" selection-end-column="98" />
-          <caret line="186" column="97" selection-start-line="186" selection-start-column="97" selection-end-line="186" selection-end-column="97" />
-          <caret line="204" column="98" selection-start-line="204" selection-start-column="98" selection-end-line="204" selection-end-column="98" />
-          <caret line="205" column="97" selection-start-line="205" selection-start-column="97" selection-end-line="205" selection-end-column="97" />
-          <caret line="228" column="98" selection-start-line="228" selection-start-column="98" selection-end-line="228" selection-end-column="98" />
-          <caret line="229" column="97" selection-start-line="229" selection-start-column="97" selection-end-line="229" selection-end-column="97" />
-          <caret line="138" column="98" selection-start-line="138" selection-start-column="98" selection-end-line="138" selection-end-column="98" />
-          <caret line="139" column="97" selection-start-line="139" selection-start-column="97" selection-end-line="139" selection-end-column="97" />
-          <caret line="164" column="98" selection-start-line="164" selection-start-column="98" selection-end-line="164" selection-end-column="98" />
-          <caret line="165" column="97" selection-start-line="165" selection-start-column="97" selection-end-line="165" selection-end-column="97" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/e-market-en.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10251">
-          <caret line="603" column="10" selection-start-line="603" selection-start-column="10" selection-end-line="603" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/medical-site.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="174" column="101" selection-start-line="174" selection-start-column="101" selection-end-line="174" selection-end-column="101" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/turnkey-website.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8262">
-          <caret line="496" column="22" selection-start-line="464" selection-start-column="16" selection-end-line="496" selection-end-column="22" />
-          <folding>
-            <element signature="n#svg#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-68">
           <caret line="125" column="80" selection-start-line="125" selection-start-column="80" selection-end-line="125" selection-end-column="80" />
-          <folding>
-            <element signature="n#style#0;n#a#16;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RU_РАЗРАБОТКА_ДИЗАЙНА_САЙТА.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="376" column="34" lean-forward="true" selection-start-line="366" selection-start-column="28" selection-end-line="376" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RU_РАЗРАБОТКА_МАРКЕТПЛЕЙСА.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="539">
-          <caret line="446" column="53" selection-start-line="446" selection-start-column="53" selection-end-line="446" selection-end-column="53" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="1132" column="24" lean-forward="true" selection-start-line="1132" selection-start-column="24" selection-end-line="1132" selection-end-column="24" />
+        <state relative-caret-position="-1628">
+          <caret line="995" column="21" lean-forward="true" selection-start-line="995" selection-start-column="21" selection-end-line="995" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/project-new.css">
+    <entry file="file://$PROJECT_DIR$/e-market.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-260">
-          <caret line="2287" column="32" lean-forward="true" selection-start-line="2287" selection-start-column="32" selection-end-line="2287" selection-end-column="32" />
+        <state relative-caret-position="198">
+          <caret line="145" column="41" selection-start-line="145" selection-start-column="41" selection-end-line="145" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service-CRM.html">
+    <entry file="file://$PROJECT_DIR$/e-market-en.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="562" column="10" lean-forward="true" selection-start-line="531" selection-start-column="4" selection-end-line="562" selection-end-column="10" />
-          <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="215">
+          <caret line="651" column="42" selection-start-line="651" selection-start-column="42" selection-end-line="651" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/medical-site.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="168" column="51" selection-start-line="168" selection-start-column="51" selection-end-line="168" selection-end-column="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/medical-site-en.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="465" column="56" lean-forward="true" selection-start-line="465" selection-start-column="56" selection-end-line="465" selection-end-column="56" />
+        <state relative-caret-position="333">
+          <caret line="630" column="70" selection-start-line="630" selection-start-column="70" selection-end-line="630" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RU_UI_UX.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RU_РАЗРАБОТКА_ДИЗАЙНА_САЙТА.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="538" column="63" selection-start-line="538" selection-start-column="63" selection-end-line="538" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RU_РАЗРАБОТКА_ИНТЕРНЕТ_МАГАЗИНОВ.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="599" column="43" selection-start-line="599" selection-start-column="43" selection-end-line="599" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RU_РАЗРАБОТКА_МАРКЕТПЛЕЙСА.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="500" column="45" selection-start-line="500" selection-start-column="45" selection-end-line="500" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RU_РАЗРАБОТКА_МЕД_САЙТОВ.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RU_РАЗРАБОТКА_САЙТОВ.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RU_УСЛУГИ_DEV_OPS.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="45" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="355" column="24" selection-start-line="355" selection-start-column="24" selection-end-line="355" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-CRM.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="618" column="22" selection-start-line="618" selection-start-column="22" selection-end-line="618" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/turnkey-website.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="557" column="51" selection-start-line="557" selection-start-column="51" selection-end-line="557" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/turnkey-website-en.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="614" column="32" selection-start-line="614" selection-start-column="32" selection-end-line="614" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-salvi.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3366">
+          <caret line="198" column="39" selection-start-line="198" selection-start-column="36" selection-end-line="198" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RU_РАЗРАБОТКА_CRM.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13617">
+          <caret line="801" column="10" selection-start-line="801" selection-start-column="10" selection-end-line="801" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/project-new.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1217">
+          <caret line="2323" column="22" lean-forward="true" selection-start-line="2323" selection-start-column="22" selection-end-line="2323" selection-end-column="22" />
         </state>
       </provider>
     </entry>
